@@ -15,8 +15,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: 따라만해보자
-  tagline: Developer. 개발블로그
+  title: 따라만해보자. 기술 블로그
+  tagline: Developer. zztkdfo
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
