@@ -15,11 +15,11 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
+  title: 따라만해보자
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: false
 
   # generate social links in footer
