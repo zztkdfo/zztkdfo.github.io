@@ -41,4 +41,18 @@ texture:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 disqus: zztkdfo
