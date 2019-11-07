@@ -30,8 +30,4 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 ```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum, ratione impedit necessitatibus facere soluta odio repellat asperiores neque! Sunt iusto quia suscipit amet inventore eum, vel molestiae reiciendis alias.
-
-
-
-{% if page.comments %} <div id="post-disqus" class="container"> {% include disqus.html %} </div> {% endif %}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum, ratione impedit necessitatibus facere soluta odio repellat asperiores neque! Sunt iusto quia suscipit amet inventore eum, vel molestiae reiciendis alias
