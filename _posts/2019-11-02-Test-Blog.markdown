@@ -5,4 +5,7 @@ date:   2019-11-02 23:03:36 +1930
 comments: true
 ---
 
+
 kkkk
+
+{% if page.comments %} <div id="post-disqus" class="container"> {% include disqus.html %} </div> {% endif %}
