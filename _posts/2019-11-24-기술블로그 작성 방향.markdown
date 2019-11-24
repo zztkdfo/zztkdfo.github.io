@@ -4,7 +4,6 @@ title:  "기술블로그 작성 방향"
 date:   2019-11-20 20:03:36 +1930
 comments: true
 ---
-<br/>
 
 <img src="/assets/image/developer.jpg" alt="developer">
 2014년 부터 현재까지 웹 개발자로 일을 하고 있으며, C# .Net을 주 언어로 개발을 시작으로 현재는 Java를 주 언어로 개발을 진행 하고 있다.
