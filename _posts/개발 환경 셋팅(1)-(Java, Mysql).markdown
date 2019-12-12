@@ -14,49 +14,49 @@ comments: true
 <br/>
 ### 1. java(openjdk) 셋팅 - mac
  1-1. 본인의 컴퓨터에 java가 설치되어 있는지 확인
- <img src="/assets/image/uninstall_openjdk.jpg" alt="uninstall_openjdk">
+ <img src="/assets/image/uninstall_openjdk.png" alt="uninstall_openjdk">
  <br/>
 1-2. 해당 url([Openjdk])에서 본인의 os 환경에 맞는 제품 선택
-<img src="/assets/image/install_openjdk_url.jpg" alt="install_openjdk_url">
+<img src="/assets/image/install_openjdk_url.png" alt="install_openjdk_url">
 <br/>
 1-3. Download 확인 후, 아래의 이미지와 같이 해당 파일을 그대로 해당 이미지로 이동
-<img src="/assets/image/openjdk_location.jpg" alt="openjdk_location">
+<img src="/assets/image/openjdk_location.png" alt="openjdk_location">
 <br/>
 1-4. 최종 확인
-<img src="/assets/image/install_openjdk.jpg" alt="install_openjdk">
+<img src="/assets/image/install_openjdk.png" alt="install_openjdk">
 <br/>
 
 ### 2. mysql 셋팅
 2-1. 본인의 컴퓨터의 시스템 환경설정에서 mysql가 설치되어 있는지 확인
-<img src="/assets/image/uninstall_mysql.jpg" alt="uninstall_mysql">
+<img src="/assets/image/uninstall_mysql.png" alt="uninstall_mysql">
 <br/>
 2-2. 해당 url([mysql])에서 본인의 os 환경에 맞는 제품 선택
-<img src="/assets/image/install_mysql_url.jpg" alt="install_mysql_url">
+<img src="/assets/image/install_mysql_url.png" alt="install_mysql_url">
 <br/>
 2-3. 아래의 그림과 같이 다운로드 시작
-<img src="/assets/image/download_check.jpg" alt="download_check">
+<img src="/assets/image/download_check.png" alt="download_check">
 <br/>
 2-4. 아래의 그림과 install 방법을 순서대로 진행
-<img src="/assets/image/install_mysql_0.jpg" alt="install_mysql_0">
+<img src="/assets/image/install_mysql_0.png" alt="install_mysql_0">
 <br/>
-<img src="/assets/image/install_mysql_1.jpg" alt="install_mysql_1">
+<img src="/assets/image/install_mysql_1.png" alt="install_mysql_1">
 <br/>
-<img src="/assets/image/install_mysql_2.jpg" alt="install_mysql_2">
+<img src="/assets/image/install_mysql_2.png" alt="install_mysql_2">
 <br/>
-<img src="/assets/image/install_mysql_3.jpg" alt="install_mysql_3">
+<img src="/assets/image/install_mysql_3.png" alt="install_mysql_3">
 <br/>
-<img src="/assets/image/install_mysql_4.jpg" alt="install_mysql_4">
+<img src="/assets/image/install_mysql_4.png" alt="install_mysql_4">
 <br/>
 아래의 이미지와 같이 password를 잘 기억해 두시기 바랍니다.
-<img src="/assets/image/install_mysql_5.jpg" alt="install_mysql_5">
+<img src="/assets/image/install_mysql_5.png" alt="install_mysql_5">
 <br/>
-<img src="/assets/image/install_mysql_6.jpg" alt="install_mysql_6">
+<img src="/assets/image/install_mysql_6.png" alt="install_mysql_6">
 <br/>
 설치 확인 후, 아래의 그림과 같이 시스템 환결설정에 mysql이 보입니다.
-<img src="/assets/image/install_success.jpg" alt="install_success">
+<img src="/assets/image/install_success.png" alt="install_success">
 <br/>
 2-5. terminal 환경에서 mysql 확인 하기
-<img src="/assets/image/mysql_confirm.jpg" alt="mysql_confirm">
+<img src="/assets/image/mysql_confirm.png" alt="mysql_confirm">
 <br/>
 terminal 환경에서 아래와 같이 실행 후, 첫번째 비밀 번호는 sudo 비밀번호를 입력후, 두번째 비밀번호는 설치과정에서 password 입력한 password 입력
 ```
