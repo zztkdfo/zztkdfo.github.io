@@ -79,7 +79,7 @@ show tables;
 우리는 이제 java와 database를 정상적으로 셋팅 하였습니다.
 앞으로 우리의 database를 생성 할 것이며, table을 설계할 것 입니다.
 또한 terminal 환경이 아닌 보다 편한 개발을 위한 통합개발환경(IDE)를 설치 할 것 이며, DBMS에 쉽게 쿼리를 던질 수 있는 Tool 이 많이 있는데, 이 중 Toad for mySQL을 사용하여 DB에 접속 하도록 하겠습니다.
-글이 너무 길어지는 관계로 다음 블로그를 통해 확인 바랍니다.
+<br/>글이 너무 길어지는 관계로 다음 블로그를 통해 확인 바랍니다.
 
 [Docker]: https://www.docker.com/
 [Openjdk]: https://jdk.java.net/archive/
