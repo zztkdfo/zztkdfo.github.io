@@ -18,7 +18,7 @@ comments: true
 
 ### 1. 데이터베이스에 종속적인 SQL문 없이 개발이 가능 합니다.
 JPA를 사용하기 전에 우리는 대게 아래와 같이 사용 했던 기억이 납니다.
-```
+```javascript
 ResultSet rs = stmt.executeQuery("SELECT test_id, test_name FROM TEST_TABLE");
 
 Test test = new Test();
@@ -26,13 +26,13 @@ test.setTestId(rs.getString("test_id"));
 test.setTestName(rs.getString("test_name"));
 
 return test;
-```java
+```
 우리는 위의 같은 코드가 너무 익숙해져 있어서 불편한 사항이 없었습니다.
 다만, JPA를 사용하기 전까진 말입니다.<br/>
 똑같이 동작하는 소스를 JPA로 간략하게 바꿔본다면 아래의 소스와 같이
 변경 할 수 있습니다.
 
-```
+```javascript
 Optional<Test> optTest = TestRepository.findById(testId);
 if (optTest.isPresent()) {
     Test test = optTest.get();
@@ -45,7 +45,7 @@ if (optTest.isPresent()) {
 
 ### 2. 생산성
 학습곡선이 높다는 이야기도 있습니다. 하지만 JPA에 익숙해 진 후 우리는 도메인 설계에 충분히 집중을 한다면 CRUD에 대한 Service를 단기간 안에 뚝딱 만들 수 있습니다. 위의 내용과 같이 우리는 SQL문을 작성하지 않고 JPA의 기능을 보다 자세히 알고만 있으면 개발에 큰 어려움이 전혀 없습니다. 다만 추후에 블로그에도 설명할 예정인 도메인 설계 시, 도메인들의 관계(1:N, N:1)와 성능에 대해서만 보다 심도있게 학습이 필요합니다.  
-```java
+```javascript
 // Select
 Optional<Test> optTest = TestRepository.findById(testId);
 
@@ -68,7 +68,7 @@ if(optTest.isPresent()){
 
 ### 3. 유지보수
 생산성이 좋으면서 또한 느꼈던 가장 큰 이점은 유지보수가 굉장히 좋습니다.
-```java
+```javascript
 ResultSet rs = stmt.executeQuery("SELECT test_id, test_name FROM TEST_TABLE");
 
 Test test = new Test();
@@ -79,7 +79,7 @@ return test;
 ```
 위의 예시에서 우리는 다른부서로 부터 <B>Test Code</B> 컬럼을 추가해 달라는 요구사항을 받았으면 우리는 TEST 테이블에 Test Code 컬럼을 추가하고 Test 객체에 testCode 필드를 추가해야 합니다.
 
-```java
+```javascript
 public class Test{
   private Long testId;
   private String testName;
@@ -102,7 +102,7 @@ return test;
 ```
 우리는 하나의 새로운 컬럼이 추가하거나 삭제가 되었을 경우 위의 코드와 같은 일련의 과정을 해왔습니다. 물론 해당 과정들이 너무 당연한 것이라 불편하다고 생각 할 수 없을 정도로 자연스러웠습니다. JPA를 사용 하고 개발해 보니 위의 개발 및 유지보수가 상당히 불편하다는 것을 알 수 있습니다.
 
-```java
+```javascript
 public class Test{
   private Long testId;
   private String testName;
