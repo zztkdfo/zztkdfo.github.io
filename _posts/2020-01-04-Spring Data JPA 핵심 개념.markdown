@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Data JPA 핵심 개념"
-date:   2020-01-02 10:03:11 +1930
+date:   2020-01-07 10:03:11 +1930
 comments: true
 ---
 <br/>
@@ -16,7 +16,7 @@ comments: true
 <br/>
 필자가 JPA를 사용하면서 개발 할 때 느꼈던 가장 큰 이점에 대해서 간략하게 3가지 정도만 설명해 보겠습니다.
 
-#1. 데이터베이스에 종속적인 SQL문 없이 개발이 가능 합니다.
+### 1. 데이터베이스에 종속적인 SQL문 없이 개발이 가능 합니다.
 JPA를 사용하기 전에 우리는 대게 아래와 같이 사용 했던 기억이 납니다.
 ```
 ResultSet rs = stmt.executeQuery("SELECT test_id, test_name FROM TEST_TABLE");
@@ -43,7 +43,7 @@ if (optTest.isPresent()) {
 <br/>
 또한 mysql, mssql, oracle의 SQL문 상관없이 개발이 가능하다는 이점도 있습니다. 예를 들어 로컬에서는 mysql로 테스트를 진행 하였는데, dev서버와 live서버는 mssql 데이터베이스를 사용 할 수 있습니다.
 
-#2. 생산성
+### 2. 생산성
 학습곡선이 높다는 이야기도 있습니다. 하지만 JPA에 익숙해 진 후 우리는 도메인 설계에 충분히 집중을 한다면 CRUD에 대한 Service를 단기간 안에 뚝딱 만들 수 있습니다. 위의 내용과 같이 우리는 SQL문을 작성하지 않고 JPA의 기능을 보다 자세히 알고만 있으면 개발에 큰 어려움이 전혀 없습니다. 다만 추후에 블로그에도 설명할 예정인 도메인 설계 시, 도메인들의 관계(1:N, N:1)와 성능에 대해서만 보다 심도있게 학습이 필요합니다.  
 ```
 // Select
@@ -66,7 +66,7 @@ if(optTest.isPresent()){
 }
 ```
 
-#3. 유지보수
+### 3. 유지보수
 생산성이 좋으면서 또한 느꼈던 가장 큰 이점은 유지보수가 굉장히 좋습니다.
 ```
 ResultSet rs = stmt.executeQuery("SELECT test_id, test_name FROM TEST_TABLE");
