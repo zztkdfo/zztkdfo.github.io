@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Data JPA 핵심 개념"
-date:   2020-01-07 10:03:11 +1930
+date:   2020-01-04 10:03:11 +1930
 comments: true
 ---
 <br/>
