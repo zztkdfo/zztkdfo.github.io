@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "개발 환경 셋팅(Toad for MySQL)"
-date:   2019-12-21 19:11:21 +1930
+date:   2019-12-21
 comments: true
 ---
 <br/>
