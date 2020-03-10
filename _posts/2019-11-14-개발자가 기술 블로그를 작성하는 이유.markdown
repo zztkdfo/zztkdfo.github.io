@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "개발자가 기술블로그를 해야하는 이유"
-date:   2019-11-14 22:03:36 +1930
+date:   2019-11-14
 comments: true
 ---
 <br/>
