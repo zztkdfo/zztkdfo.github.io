@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "기술블로그 작성 방향"
-date:   2019-11-24 20:03:36 +1930
+date:   2019-11-24
 comments: true
 ---
 <br/>
