@@ -329,8 +329,8 @@ public class XObjectUtils
 3. Member 조회 <br/>
 > http://localhost:8080/member/getMember?id=1 <br/>
 > <img src="/assets/image/06/JPA_TEST_7.png" alt="JPA_TEST_7">
-<br/>
 
+<br/>
 ### 정리
 - - -
 이번 시간에는 JPA를 실행하기 위한 모든 준비 과정이 끝났습니다.<br/>
