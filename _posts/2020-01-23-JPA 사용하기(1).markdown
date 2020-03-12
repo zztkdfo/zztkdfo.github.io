@@ -324,8 +324,8 @@ public class XObjectUtils
 1. http://localhost:8080/member/saveSampleMember <br/>
 > 샘플 데이터 등록
 2. http://localhost:8080/member/saveSampleMember <br/>
-> Member 리스트 조회
+> Member 리스트 조회 <br/>
 > <img src="/assets/image/06/JPA_TEST_7.png" alt="JPA_TEST_7">
 3. http://localhost:8080/member/saveSampleMember <br/>
-> Member 조회
+> Member 조회 <br/>
 > <img src="/assets/image/06/JPA_TEST_8.png" alt="JPA_TEST_8">
