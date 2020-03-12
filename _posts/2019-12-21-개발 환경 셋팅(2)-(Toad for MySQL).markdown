@@ -41,7 +41,7 @@ comments: true
 우리는 이제 개발에 필요한 개발환경을 완료 하였습니다. Java 개발 툴인 eclipse 또는 intellij는 너무도 많고 잘 정리되어 있는 블로그가 많기 때문에
 생략 하도록 하겠습니다.
 <br/>참고로 필자는 현재 intellij를 사용 하고 있습니다.
-<br/>다음 시간에는 이제 개발 환경 셋팅이 완료 되었으니, 프로그래밍의 가장 기본이 되는 테스트 코드인 게시판을 Java(Spring boot, JPA)를 사용 하여 진행하도록 해보겠습니다.
+<br/>다음 시간에는 Spring Data JPA에 대한 기본 개념과 필자가 생각하는 JPA의 강점에 대해서 설명 하도록 하겠습니다.
 
 [toad for mysql]: http://www.toadworld.com/
 [Download]: https://www.toadworld.com/downloads#mysql
