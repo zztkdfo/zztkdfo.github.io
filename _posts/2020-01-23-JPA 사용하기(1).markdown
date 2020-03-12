@@ -118,3 +118,214 @@ public class Member {
 }
 
 ```
+
+```
+MemberController.Java
+
+package com.example.demo.controller;
+
+import com.example.demo.domain.Member;
+import com.example.demo.service.MemberService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/member")
+public class MemberController {
+
+    @Autowired
+    private MemberService memberService;
+
+    @RequestMapping
+    @ResponseBody
+    public String Test(){
+        return "Test Member";
+    }
+
+    @RequestMapping(value = "/saveSampleMember")
+    @ResponseBody
+    public List<Member> saveSampleMember(){
+        memberService.saveSampleMember();
+        List<Member> list = memberService.findMemberList();
+        return list;
+    }
+
+    @RequestMapping(value = "/findMemberList")
+    @ResponseBody
+    public List<Member> findMemberList(){
+        List<Member> list = memberService.findMemberList();
+        return list;
+    }
+
+    @RequestMapping(value = "/getMember")
+    @ResponseBody
+    public Member getMember(Long id){
+        return memberService.getMember(id);
+    }
+
+}
+
+
+```
+
+```
+MemberRepository.java
+
+package com.example.demo.repository;
+
+import com.example.demo.domain.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MemberRepository extends JpaRepository<Member, Long> {
+}
+
+```
+
+```
+MemberService.java
+
+package com.example.demo.service;
+
+import com.example.demo.repository.MemberRepository;
+import com.example.demo.domain.Member;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class MemberService {
+
+    @Autowired
+    private MemberRepository memberRepository;
+    @Autowired
+    private TeamService teamService;
+
+    public void saveSampleMember(){
+        for(int i=0; i<10; i++){
+            Member member = new Member();
+            member.setMemberAge(i+20);
+            member.setMemberCode("test_"+i);
+            member.setMemberName("테스터_"+i);
+            member.setTeam(teamService.getTeam(1L));
+            memberRepository.save(member);
+        }
+    }
+
+    public List<Member> findMemberList(){
+        return memberRepository.findAll();
+    }
+
+    public Member getMember(Long id){
+
+        if(memberRepository.findById(id).isPresent()){
+            return memberRepository.findById(id).get();
+        }
+
+        return null;
+    }
+}
+
+
+```
+
+```
+XJsonUtils.java
+
+package com.example.demo.utils;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.IOException;
+
+public class XJsonUtils {
+
+    /**
+     * Convert Object to JSON String
+     * @param obj
+     * @return
+     * @throws JsonProcessingException
+     */
+    public static String objectToJsonString(Object obj) throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.writeValueAsString(obj);
+    }
+
+    /**
+     * Convert JSON to Object
+     * @param jsonString
+     * @param clazz
+     * @param <T>
+     * @return
+     * @throws IOException
+     */
+    public static <T> T jsonStringToObejct(String jsonString ,Class<T> clazz) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        // 모르는 property에 대해 무시하고 넘어간다.
+        objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        return objectMapper.readValue(jsonString, clazz);
+    }
+
+    /**
+     * Convert Object to Vo
+     * @param obj
+     * @param clazz
+     * @param <T>
+     * @return
+     * @throws IOException
+     */
+    public static <T> T convertToVo (Object obj, Class<T> clazz) throws IOException {
+        String jsonString = objectToJsonString(obj);
+        T data = jsonStringToObejct(jsonString, clazz);
+        return data;
+    }
+
+
+}
+
+
+```
+
+```
+XObjectUtils.java
+
+package com.example.demo.utils;
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class XObjectUtils
+{
+    /**
+     * Object type 변수가 비어있는지 체크
+     *
+     * @param obj
+     * @return Boolean : true / false
+     */
+    public static Boolean isEmpty(Object obj) {
+        if (obj instanceof String) return obj == null || "".equals(obj.toString().trim());
+        else if (obj instanceof List) return obj == null || ((List) obj).isEmpty();
+        else if (obj instanceof Map) return obj == null || ((Map) obj).isEmpty();
+        else if (obj instanceof Object[]) return obj == null || Array.getLength(obj) == 0;
+        else return obj == null;
+    }
+
+    /**
+     * Object type 변수가 비어있지 않은지 체크
+     *
+     * @param obj
+     * @return Boolean : true / false
+     */
+    public static Boolean isNotEmpty(Object obj) {
+        return !isEmpty(obj);
+    }
+
+}
+
+```
