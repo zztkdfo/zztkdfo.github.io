@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "JPA 사용하기(1)"
+date:   2020-01-23
+comments: true
+---
+<br/>
+
+이번 블로그에서는 앞으로 사용할 Spring Data JPA(Java Persistence API)에 대한 직접 세팅해보고 정상 작동 되는지에 대한 테스트를 진행해 보도록 하겠습니다.
+<br/>
+### JPA IDE 설정
+- - -
+
+필자는 IDE로 intelliJ를 사용하여 테스트를 진행 하였다. </br>
+아래의 이미지와 같이 순서대로 따라 해보길 바랍니다.
+</br></br>
+<img src="/assets/image/06/JPA_TEST_1.png" alt="JPA_TEST_1">
+</br>
+<img src="/assets/image/06/JPA_TEST_2.png" alt="JPA_TEST_2">
+</br>
+<img src="/assets/image/06/JPA_TEST_3.png" alt="JPA_TEST_3">
+</br>
+<img src="/assets/image/06/JPA_TEST_4.png" alt="JPA_TEST_4">
+</br>
+
+#### application.properties
+application.properties에 아래의 이미지와 같이 추가 바랍니다.
+</br>
+<img src="/assets/image/06/JPA_TEST_5.png" alt="JPA_TEST_5">
+</br>
+```
+# DB = mysql
+spring.jpa.database=mysql
+spring.jpa.generate-ddl=true
+# spring.jpa.hibernate.ddl-auto=create
+
+# SQL 문을 콘솔에 출력한다.
+spring.jpa.show-sql=true
+
+# MySQL 설정
+spring.datasource.url=jdbc:mysql://localhost:3306/testDB?useSSL=false&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=비밀번호
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# MySQL 상세 지정
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+```
+</br>
+우리는 이제 정상적으로 작동하는지에 대한 테스트를 해보겠습니다.</br>
+자세한 설명은 다음 블로그에서 하기로 하고 이번 블로그는 정상 동작만 확인하는 것을 목표로 두겠습니다.</br>
+<img src="/assets/image/06/JPA_TEST_6.png" alt="JPA_TEST_6">
+</br>
+저는 패키지 구조를 위의 그림과 같이 구성하고 있습니다.</br>
+또한 domain을 생성 할 때, 예를들어 Member를 생성하면 아래의 구조와 같이
+한 세트로 생성하고 관리하고 있습니다.
+</br>
+
+controller
+> MemberController
+
+service
+> MemberService
+
+domain
+> Member
+
+repository
+> MemberRepository
+
+utils - 공통기능
+> XObjectUtils
+> XJsonUtils
+> XStringUtils
