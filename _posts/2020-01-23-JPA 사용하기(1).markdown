@@ -57,20 +57,16 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 
 controller
 > MemberController
-
 service
 > MemberService
-
 domain
 > Member
-
 repository
 > MemberRepository
-
 utils - 공통기능
-> XObjectUtils
-> XJsonUtils
-> XStringUtils
+> XObjectUtils <br/>
+> XJsonUtils <br/>
+> XStringUtils <br/>
 
 <br/>
 ```
