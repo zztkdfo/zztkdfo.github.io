@@ -327,5 +327,5 @@ public class XObjectUtils
 > http://localhost:8080/member/saveSampleMember <br/>
 > <img src="/assets/image/06/JPA_TEST_7.png" alt="JPA_TEST_7">
 3. Member 조회 <br/>
-> http://localhost:8080/member/saveSampleMember <br/>
+> http://localhost:8080/member/getMember?id=1 <br/>
 > <img src="/assets/image/06/JPA_TEST_8.png" alt="JPA_TEST_8">
