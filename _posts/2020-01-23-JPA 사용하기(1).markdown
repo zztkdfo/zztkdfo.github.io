@@ -324,8 +324,16 @@ public class XObjectUtils
 1. 샘플 데이터 등록 <br/>
 > http://localhost:8080/member/saveSampleMember  
 2. Member 리스트 조회 <br/>
-> http://localhost:8080/member/saveSampleMember <br/>
-> <img src="/assets/image/06/JPA_TEST_7.png" alt="JPA_TEST_7">
+> http://localhost:8080/member/findMemberList <br/>
+> <img src="/assets/image/06/JPA_TEST_8.png" alt="JPA_TEST_8">
 3. Member 조회 <br/>
 > http://localhost:8080/member/getMember?id=1 <br/>
-> <img src="/assets/image/06/JPA_TEST_8.png" alt="JPA_TEST_8">
+> <img src="/assets/image/06/JPA_TEST_7.png" alt="JPA_TEST_7">
+<br/>
+### 정리
+- - -
+이번 시간에는 JPA를 실행하기 위한 모든 준비 과정이 끝났습니다.<br/>
+다음 시간에는 샘플로 사용한 JPA 소스를 하나하나 보면서 설명을 하도록 하겠습니다.<br/>
+만약 오류가 발생 하는 경우는 패키지 경로가 맞지 않거나 Lombok 오류(Domain Getter, Setter), JDBC Connection 오류, application.properties의 MySQL 설정 부분 오류 등 예상해 볼 수 있습니다.<br/>
+그럴 경우 차근차근 다시 한번 따라해 보시고 구글링을 하여 어디서 잘못되었는지 직접 찾아서 수정해 보시는 것도 많은 도움이 될 거라 생각됩니다. 아래의 댓글도 사용하여 의견을 물어보셔도 좋습니다.<br/>
+감사합니다.<br/>
