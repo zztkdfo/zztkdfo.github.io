@@ -13,21 +13,18 @@ comments: true
 
 필자는 IDE로 intelliJ를 사용하여 테스트를 진행 하였다. <br/>
 아래의 이미지와 같이 순서대로 따라 해보길 바랍니다.
-<br/><br/>
+<br/>
 <img src="/assets/image/06/JPA_TEST_1.png" alt="JPA_TEST_1">
-<br/>
 <img src="/assets/image/06/JPA_TEST_2.png" alt="JPA_TEST_2">
-<br/>
 <img src="/assets/image/06/JPA_TEST_3.png" alt="JPA_TEST_3">
-<br/>
 <img src="/assets/image/06/JPA_TEST_4.png" alt="JPA_TEST_4">
 <br/>
 
-#### application.properties
+### application.properties
+- - -
 application.properties에 아래의 이미지와 같이 추가 바랍니다.
-<br/>
 <img src="/assets/image/06/JPA_TEST_5.png" alt="JPA_TEST_5">
-<br/>
+
 ```
 # DB = mysql
 spring.jpa.database=mysql
@@ -47,6 +44,8 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 ```
 <br/>
+### 실행
+- - -
 우리는 이제 정상적으로 작동하는지에 대한 테스트를 해보겠습니다.<br/>
 자세한 설명은 다음 블로그에서 하기로 하고 이번 블로그는 정상 동작만 확인하는 것을 목표로 두겠습니다.<br/>
 <img src="/assets/image/06/JPA_TEST_6.png" alt="JPA_TEST_6">
