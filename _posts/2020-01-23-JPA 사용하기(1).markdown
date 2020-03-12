@@ -43,7 +43,6 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 # MySQL 상세 지정
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 ```
-<br/>
 ### 실행
 - - -
 우리는 이제 정상적으로 작동하는지에 대한 테스트를 해보겠습니다.<br/>
@@ -57,12 +56,16 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 
 controller
 > MemberController
+
 service
 > MemberService
+
 domain
 > Member
+
 repository
 > MemberRepository
+
 utils - 공통기능
 > XObjectUtils <br/>
 > XJsonUtils <br/>
