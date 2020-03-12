@@ -11,23 +11,23 @@ comments: true
 ### JPA IDE 설정
 - - -
 
-필자는 IDE로 intelliJ를 사용하여 테스트를 진행 하였다. </br>
+필자는 IDE로 intelliJ를 사용하여 테스트를 진행 하였다. <br/>
 아래의 이미지와 같이 순서대로 따라 해보길 바랍니다.
-</br></br>
+<br/><br/>
 <img src="/assets/image/06/JPA_TEST_1.png" alt="JPA_TEST_1">
-</br>
+<br/>
 <img src="/assets/image/06/JPA_TEST_2.png" alt="JPA_TEST_2">
-</br>
+<br/>
 <img src="/assets/image/06/JPA_TEST_3.png" alt="JPA_TEST_3">
-</br>
+<br/>
 <img src="/assets/image/06/JPA_TEST_4.png" alt="JPA_TEST_4">
-</br>
+<br/>
 
 #### application.properties
 application.properties에 아래의 이미지와 같이 추가 바랍니다.
-</br>
+<br/>
 <img src="/assets/image/06/JPA_TEST_5.png" alt="JPA_TEST_5">
-</br>
+<br/>
 ```
 # DB = mysql
 spring.jpa.database=mysql
@@ -46,15 +46,15 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 # MySQL 상세 지정
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 ```
-</br>
-우리는 이제 정상적으로 작동하는지에 대한 테스트를 해보겠습니다.</br>
-자세한 설명은 다음 블로그에서 하기로 하고 이번 블로그는 정상 동작만 확인하는 것을 목표로 두겠습니다.</br>
+<br/>
+우리는 이제 정상적으로 작동하는지에 대한 테스트를 해보겠습니다.<br/>
+자세한 설명은 다음 블로그에서 하기로 하고 이번 블로그는 정상 동작만 확인하는 것을 목표로 두겠습니다.<br/>
 <img src="/assets/image/06/JPA_TEST_6.png" alt="JPA_TEST_6">
-</br>
-저는 패키지 구조를 위의 그림과 같이 구성하고 있습니다.</br>
+<br/>
+저는 패키지 구조를 위의 그림과 같이 구성하고 있습니다.<br/>
 또한 domain을 생성 할 때, 예를들어 Member를 생성하면 아래의 구조와 같이
 한 세트로 생성하고 관리하고 있습니다.
-</br>
+<br/>
 
 controller
 > MemberController
@@ -72,3 +72,51 @@ utils - 공통기능
 > XObjectUtils
 > XJsonUtils
 > XStringUtils
+
+<br/>
+```
+Member.Java
+
+package com.example.demo.domain;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
+
+@Getter
+@Setter
+@Entity
+@Table(name ="TB_MEMBER",
+    uniqueConstraints={
+        @UniqueConstraint(
+            name="INDEX_MEMBER_CODE",
+            columnNames = {"MEMBER_CODE"}
+        )
+    }
+)
+public class Member {
+
+    @Id
+    @Column(name = "MEMBER_ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "MEMBER_CODE", nullable = false)
+    private String memberCode;
+
+    @Column(name = "MEMBER_NAME")
+    private String memberName;
+
+    @Column(name = "MEMBER_AGE")
+    private Integer memberAge;
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "TEAM_ID")
+    private Team team;
+
+}
+
+```
