@@ -67,7 +67,7 @@ JPA가 제공하는 데이터베이스 기본 키 생성 전략은 직접 할당
 + columnDefinition : 데이터베이스 컬럼 정보를 직접 설정
 + length : 문자 길이
 
-<br/><br/>
+<br/>
 ### @JsonIgnore, @ManyToOne, @JoinColumn
 해당 어노테이션에 대한 설명은 매우 중요한 기능임으로 추후 정리하여 올리도록 하겠습니다. 궁금하신 분들은 먼저 <Strong>JPA의 연관관계 매핑</Strong>을 구글링 해보시면 많은 자료를 찾아보실 수 있습니다.
 <br/><br/>
