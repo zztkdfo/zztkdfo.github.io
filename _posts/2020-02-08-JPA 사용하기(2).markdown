@@ -68,10 +68,31 @@ JPA가 제공하는 데이터베이스 기본 키 생성 전략은 직접 할당
 | nullable       | null 허용 여부       |기본값 : true|
 | columnDefinition       | 데이터베이스 컬럼 정보를 직접 설정       |       |
 | length       | 문자 길이       |  |
+<br/>
+<table>
+<tr>
+  <th>1</th>
+  <th>2</th>
+  <th>3</th>
+</tr>
+<tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+<tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+</table>
 #### @JsonIgnore, @ManyToOne, @JoinColumn
 해당 어노테이션에 대한 설명은 매우 중요한 기능임으로 추후 정리하여 올리도록 하겠습니다. 궁금하신 분들은 먼저 <Strong>JPA의 연관관계 매핑</Strong>을 구글링 해보시면 많은 자료를 찾아보실 수 있습니다.
-
+</br></br>
 이외에 @Enumerated(enum 사용), @Temporal(날짜 관련), @Lob(대용량 String), @Transient(객체에 임시 값, 필드에 매핑X, 데이터베이스에 저장, 조회X), @Access(엔티티 데이터에 접근 방식)의 어노테이션들이 존재 합니다.
-
+<br/>
+### 정리
+- - -
+이번 
 
 [JPA 사용하기(1)]: https://zztkdfo.github.io/posts/JPA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0(1)/
