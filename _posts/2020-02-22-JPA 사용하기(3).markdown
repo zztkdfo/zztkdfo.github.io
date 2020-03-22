@@ -1,0 +1,119 @@
+---
+layout: post
+title:  "JPA 사용하기(3)"
+date:   2020-02-22
+comments: true
+---
+<br/>
+
+이번 블로그에서는 Spring Data JPA(Java Persistence API)의 다대일(@ManyToOne), 일대다(@OneToMany), 일대일(@OnetoOne), 다대다(@ManyToMany) 연관관계를 단방향, 양방향으로 매핑하는 방법에 대해 필자가 작성한 아래의 소스를 분석하며 하나하나 알아 보도록 하겠습니다.
+<br/>
+### Member.java
+- - -
+```
+@Getter
+@Setter
+@Entity
+@Table(name ="TB_MEMBER",
+    uniqueConstraints={
+        @UniqueConstraint(
+            name="INDEX_MEMBER_CODE",
+            columnNames = {"MEMBER_CODE"}
+        )
+    }
+)
+public class Member {
+
+    @Id
+    @Column(name = "MEMBER_ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "MEMBER_CODE", nullable = false)
+    private String memberCode;
+
+    @Column(name = "MEMBER_NAME")
+    private String memberName;
+
+    @Column(name = "MEMBER_AGE")
+    private Integer memberAge;
+
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "TEAM_ID")
+    private Team team;
+}
+```
+<br/>
+### Team.java
+```
+@Getter
+@Setter
+@Entity
+@Table(name ="TB_TEAM",
+    uniqueConstraints={
+        @UniqueConstraint(
+            name="INDEX_TEAM_CODE",
+            columnNames = {"TEAM_CODE"}
+        )
+    }
+)
+public class Team {
+    @Id
+    @Column(name = "TEAM_ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "TEAM_CODE", nullable = false)
+    private String teamCode;
+
+    @Column(name = "TEAM_NAME")
+    private String teamName;
+
+    @Column(name = "TEAM_MAIL")
+    private String teamMail;
+
+    @Column(name = "TEAM_LEADER")
+    private String teamLeader;
+
+    @OneToMany(mappedBy = "team")
+    private List<Member> memberList = new ArrayList<>();
+}
+```
+- - -
+<br/>
+### 다대일(@ManyToOne)
+- - -
+Member의 관점에서 생각할 때, Member와 Team의 경우 다대일 관계입니다.<br/>
+하나의 Team에 여러명의 Member가 존재한다는 식으로 생각하면 쉽습니다.<br/>
+그러면 다대일 관계에 대한 단방향, 양방향에 대해 설명하도록 하겠습니다.<br/>
+- <strong>다대일 단방향 [N:1]</strong>
+> Member에서 @ManyToOne(fetch = FetchType.LAZY), @JoinColumn(name = "TEAM_ID") 어노테이션을 사용하여 매핑 관계를 설정합니다.<br/>
+> 단방향 매핑임으로, Team에서 memberList의 필드와 @OneToMany(mappedBy = "team")의 어노테이션이 없다고 가정합니다.<br/>
+> Member.team(getTeam())으로 Team 엔티티를 참조 할 수 있지만 반대로 Team 엔티티에서는 Member를 참조하는 필드가 없습니다.<br/>
+> @ManyToOne(fetch = FetchType.LAZY)의 fetch는 즉시로딩, 지연로딩으로 불리는 속성입니다. 간단하게 설명하면 FetchType.LAZY(지연로딩)같은 경우는 Member에서 getTeam()메소드를 호출 할 때, 데이터베이스를 조회하고, 반대로 FetchType.EAGER(즉시로딩)일 경우에는 프로그램 실행 할 때 이미 해당 데이터를 조회해 놓은 상태를 말 합니다. 해당 속성에 대해서는 어느것이 맞다 틀리다가 없고, 기획에 맞게 해당 속성을 사용하면 됩니다. 화면 UI와 UX를 고려하여 Member UI에서 Team을 자주 사용할 경우에는 FetchType.EAGER를 사용하는게 더욱 효율적입니다. 왜냐하면 아시겠지만 프로그램에서 데이터베이스를 반복적으로 접근하는 비용은 상당히 높기 때문에 개발자와 기획자의 UI, UX에 따라 해당 속성을 사용하면 될 것 입니다.
+- <strong>다대일 양방향 [N:1, 1:N]</strong>
+> 양방향 매핑은 위에서 보여지는 소스와 같이 사용하는 것입니다.<br/>
+> 양방향 매핑은 양쪽 모든 엔티티에서 서로의 정보를 get메소드를 통해 접근 할 수 있습니다.<br/>
+> 양방향으로 매핑하고 있기 때문에 무한루프에 빠지게 됩니다. 따라서 @JsonIgnore 어노테이션을 사용하여 무한루프에 빠지지 않도록 주의해야 합니다.
+<br/>
+### 일대다(@OneToMany)
+- - -
+- <strong>일대다 단방향 [1:N]</strong>
+>ㅇㅇ
+- <strong>일대다 양방향 [1:N, N:1]</strong>
+>ㅇㅇ
+<br/>
+### 일대일(@OnetoOne)
+- - -
+- <strong>일대일 단방향</strong>
+>ㅇㅇ
+- <strong>일대일 양방향</strong>
+>ㅇㅇ
+<br/>
+### 다대다(@ManyToMany)
+- - -
+- <strong>다대다 단방향</strong>
+>ㅇㅇ
+- <strong>다대다 양방향</strong>
+>ㅇㅇ
