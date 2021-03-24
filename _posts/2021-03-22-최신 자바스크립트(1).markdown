@@ -6,16 +6,77 @@ comments: true
 ---
 <br/>
 
-필자는 2020년 3월에 사랑스러운 아이가 태어나며 끝나지 않는 육아로 인해 블로그 작성을 어쩔수 없이 잠시 멈췄으나 지금은 육아에 적응도 어느정도 됐으며 틈틈히 시간 내기로 다시 한번 다짐하였습니다. <br/>
-현재 필자는 백엔드, 프론트엔드 개발 사이에 많은 고민이 있습니다. 원래는 백엔드 개발을 주가 되어 개발을 하였지만 검증된 프론트엔드 개발자를 구하기는 쉽지 않았으며 프로젝트 진행은 해야되고 어쩔수 없이 필자는 틈틈히 스스로 학습 하여 현재 react, typescript를 사용하여 기획자가 원하는 수준의 모듈 개발을 진행하고 있습니다. <br/>
+필자는 2020년 3월에 사랑스러운 아이가 태어나며 끝나지 않는 육아로 인해 블로그 작성을 어쩔수 없이 잠시 멈췄으나 지금은 육아에 적응도 어느정도 됐으며 틈틈히 시간 내기로 다시 한번 다짐하였습니다. <br/><br/>
+현재 필자는 백엔드, 프론트엔드 개발 사이에 많은 고민이 있습니다. 원래는 백엔드 개발을 주가 되어 개발을 하였지만 검증된 프론트엔드 개발자를 구하기는 쉽지 않았으며 프로젝트 진행은 해야되고 어쩔수 없이 필자는 틈틈히 스스로 학습 하여 현재 react, typescript를 사용하여 기획자가 원하는 수준의 모듈 개발을 진행하고 있습니다. <br/><br/>
 필자의 경험으로 백엔드 개발자가 프론트엔드 개발을 하기 위한 첫번째 선행 학습으로 <B>최신 자바스크립트를 공부해라</B> 입니다. <br/>
 필자는 그 전에 javascript, jQuery를 사용하여 DOM를 직접 컨트롤 하여 개발을 했으며 크게 어려움을 느끼진 못했습니다. 하지만 그 당시 javascript, jQuery 를 했던 수준으로 생각하시고 프론트엔드 개발로 전향하신다면 다시 한번 깊게 생각해보길 바랍니다. 생각보다 난이도는 훨씬 높아졌으며 공부해야 할 양도 상당히 많다는 것 먼저 아셔야 합니다. <br/>
 서론이 너무 길었습니다. 그럼 최신 자바스크립트에 대해 알아보도록 하겠습니다.
 <br/>
 ### ES6에서 변수 선언
 - - -
+ES6 이전에는 var 키워드가 변수를 선언하는 유일한 방법 이었습니다. 지금은 더 나은 기능을 제공하는 몇 가지 방법이 추가 되었습니다. 요즘 모든 언어에서 중요하게 여겨지는 <b>immutable</b> 이 보장 되어지는가? 입니다.
+> <b>const</b>
+<br />
+const는 변경할 수 없는 변수입니다. 자바스크립트에서는 상수를 도입하였습니다.<br/>
+아래와 같이 값을 변경할 경우 오류가 발생합니다.<br/>
+```javascript
+  기존 방식
+  var food = 'pizza'
+  food = 'hamburger'
+  console.log('food', food) // 'hamburger'
+  var food = 'apple' //변수 중복 선언 허용
+  console.log('food', food) //'apple'
+
+  // 오류 발생 (const 상수)
+  const food = 'pizza'
+  food = 'hamburger' //변수 변경 불가
+  console.log('food', food)
+  const food = 'hamburger' //변수 중복 불가
 ```
+<img src="/assets/image/20210322/const_1.png" alt="const_1">
+<br/>
+<br/>
+> <b>let</b> <br/>
+> let은 변경 가능한 변수의 값을 할당할 때 사용합니다.<br/>
+> var 변수 선언 방식의 가장 큰 문제점인 함수 레벨 스코프, 블록 레벨 스코프, 변수 호이스팅을 막기 위해 let을 사용 합니다.<br/>
+```javascript
+  var food ='pizza'
+
+  console.log('food', food) //pizza
+
+  {
+      var food = 'hamburger'
+      console.log('food', food) //hamburger
+  }
+
+  console.log('food', food) //pizza?? hamburger??
 ```
+<img src="/assets/image/20210322/let_1.png" alt="let_1">
+<br/>
+<br/>
+>위 예제에서 코드에서 var를 사용할 경우 블록 레벨 스코프({}괄호로 등록된 변수, 지역변수)를 따르지 않는 var 키워드의 특성 상, 코드 블록 내의 변수 food는 전역 변수 입니다. 그런데 이미 전역 변수 food가 선언되어 있습니다. var 키워드를 사용하여 선언한 변수는 <b>중복 선언이 허용</b>되므로 위의 코드는 문법적으로 아무런 문제가 없습니다. 단, 코드 블록 내의 변수 food는 전역 변수이기 때문에 전역에서 선언된 전역 변수 food의 값 'pizza'을 새로운 값 'hamburger'으로 재할당하여 덮어씁니다.
+```javascript
+  let food ='pizza'
+
+  console.log('food', food) //pizza
+
+  {
+      let food = 'hamburger'
+      let drink = 'water'
+
+      console.log('food', food) //hamburger
+      console.log('drink', drink) //water??     
+  }
+
+  console.log('food', food) //pizza?? hamburger??
+  console.log('drink', drink) //water??
+```
+<img src="/assets/image/20210322/let_2.png" alt="let_2">
+<br/>
+<br/>
+> ES6는 블록 레벨 스코프를 따르는 변수를 선언하기 위해 let 키워드를 제공합니다.
+let 키워드로 선언된 변수는 블록 레벨 스코프를 따릅니다. 위 예제에서 코드 블록 내에 선언된 변수 food는 블록 레벨 스코프를 갖는 지역 변수입니다. 전역에서 선언된 변수 food와는 다른 별개의 변수입니다. 또한 변수 drink도 블록 레벨 스코프를 갖는 지역 변수입니다. 따라서 전역에서는 변수 bar를 참조할 수 없습니다.
+이렇게 보다 안전한 변수 선언인 const, let을 사용 해야 합니다.
 ### 화살표 함수
 - - -
 ```

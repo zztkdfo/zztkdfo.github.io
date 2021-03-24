@@ -18,7 +18,7 @@ $lightGray: #eee;
 
 body {
 	font-family: 'Nunito Sans', sans-serif;
-	@include fluidType(16px, 19px);
+	@include fluidType(13px, 16px);
 	line-height: 1.55em;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -103,14 +103,14 @@ header {
 //
 .container {
 	margin:0 150px;
-	max-width: 720px;
+	max-width: 880px;
 
 	div.highlighter-rouge {
 		right: 150px;
 	}
 
 	@media screen and  (max-width: $mobileWidth) {
-		margin:0 15px; 
+		margin:0 15px;
 		div.highlighter-rouge {
 			right: 15px;
 		}
@@ -120,7 +120,7 @@ header {
 	}
 
 	@media screen and (max-width: $tabWidth) and (min-width: $mobileWidth){
-		margin:0 40px;	
+		margin:0 40px;
 		div.highlighter-rouge {
 			right: 40px;
 		}
