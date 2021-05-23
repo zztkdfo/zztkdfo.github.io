@@ -19,7 +19,7 @@ ES6 이전에는 var 키워드가 변수를 선언하는 유일한 방법 이었
 const는 변경할 수 없는 변수입니다. 자바스크립트에서는 상수를 도입하였습니다.<br/>
 아래와 같이 값을 변경할 경우 오류가 발생합니다.<br/>
 ```javascript
-  기존 방식
+  // 기존 방식
   var food = 'pizza'
   food = 'hamburger'
   console.log('food', food) // 'hamburger'
@@ -70,14 +70,29 @@ var 변수 선언 방식의 가장 큰 문제점인 함수 레벨 스코프, 블
 ```
 <img src="/assets/image/20210322/let_2.png" alt="let_2">
 <br/>
-<br/>
 ES6는 블록 레벨 스코프를 따르는 변수를 선언하기 위해 let 키워드를 제공합니다.
 let 키워드로 선언된 변수는 블록 레벨 스코프를 따릅니다. 위 예제에서 코드 블록 내에 선언된 변수 food는 블록 레벨 스코프를 갖는 지역 변수입니다. 전역에서 선언된 변수 food와는 다른 별개의 변수입니다. 또한 변수 drink도 블록 레벨 스코프를 갖는 지역 변수입니다. 따라서 전역에서는 변수 bar를 참조할 수 없습니다.
 이렇게 보다 안전한 변수 선언인 const, let을 사용 해야 합니다.
-### 화살표 함수
+### 화살표 함수(arrow function)
 - - -
+화살표 함수(arrow function)은 ES6에 새로 추가된 유용한 기능 입니다.<br/>
+이를 사용하면 function 키워드 없이도 함수를 만들 수 있으며, return을 사용하지 않아도 식을 계산한 값이 자동으로 반환 됩니다.<br/>
+```javascript
+  // 기존 방식
+  const a = function(x, y){
+    return x + y
+  }
+  console.log(`a() = ${a(1,2)}`)
+
+  // arrow function
+  const b = (x, y) => x + y
+  console.log(`b() = ${b(1,2)}`)
+
 ```
-```
+<img src="/assets/image/20210322/arrow_1.png" alt="arrow_1">
+<br/>
+
+
 ### ES6 트랜스파일링
 - - -
 ```

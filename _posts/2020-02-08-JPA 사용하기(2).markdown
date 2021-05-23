@@ -10,7 +10,7 @@ comments: true
 <br/>
 ### 엔티티 설정
 - - -
-```
+```java
 @Getter
 @Setter
 @Entity

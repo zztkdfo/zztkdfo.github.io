@@ -74,7 +74,7 @@ utils - 공통기능
 <br/>
 ### 소스
 - - -
-```
+```java
 Member.Java
 
 package com.example.demo.domain;
@@ -119,7 +119,7 @@ public class Member {
 }
 ```
 
-```
+```java
 MemberController.Java
 
 package com.example.demo.controller;
@@ -169,7 +169,7 @@ public class MemberController {
 }
 ```
 
-```
+```java
 MemberRepository.java
 
 package com.example.demo.repository;
@@ -184,7 +184,7 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 
 ```
 
-```
+```java
 MemberService.java
 
 package com.example.demo.service;
@@ -230,7 +230,7 @@ public class MemberService {
 }
 ```
 
-```
+```java
 XJsonUtils.java
 
 package com.example.demo.utils;
@@ -284,7 +284,7 @@ public class XJsonUtils {
 }
 ```
 
-```
+```java
 XObjectUtils.java
 
 package com.example.demo.utils;

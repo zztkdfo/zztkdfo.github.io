@@ -45,7 +45,7 @@ if (optTest.isPresent()) {
 
 ### 2. 생산성
 학습곡선이 높다는 이야기도 있습니다. 하지만 JPA에 익숙해 진 후 우리는 도메인 설계에 충분히 집중을 한다면 CRUD에 대한 Service를 단기간 안에 뚝딱 만들 수 있습니다. 위의 내용과 같이 우리는 SQL문을 작성하지 않고 JPA의 기능을 보다 자세히 알고만 있으면 개발에 큰 어려움이 전혀 없습니다. 다만 추후에 블로그에도 설명할 예정인 도메인 설계 시, 도메인들의 관계(1:N, N:1)와 성능에 대해서만 보다 심도있게 학습이 필요합니다.  
-```javascript
+```java
 // Select
 Optional<Test> optTest = TestRepository.findById(testId);
 
@@ -79,7 +79,7 @@ return test;
 ```
 위의 예시에서 우리는 다른부서로 부터 <B>Test Code</B> 컬럼을 추가해 달라는 요구사항을 받았으면 우리는 TEST 테이블에 Test Code 컬럼을 추가하고 Test 객체에 testCode 필드를 추가해야 합니다.
 
-```javascript
+```java
 public class Test{
   private Long testId;
   private String testName;
@@ -102,7 +102,7 @@ return test;
 ```
 우리는 하나의 새로운 컬럼이 추가하거나 삭제가 되었을 경우 위의 코드와 같은 일련의 과정을 해왔습니다. 물론 해당 과정들이 너무 당연한 것이라 불편하다고 생각 할 수 없을 정도로 자연스러웠습니다. JPA를 사용 하고 개발해 보니 위의 개발 및 유지보수가 상당히 불편하다는 것을 알 수 있습니다.
 
-```javascript
+```java
 public class Test{
   private Long testId;
   private String testName;
