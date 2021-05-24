@@ -66,7 +66,7 @@ padding: XX(위, 아래)px YY(왼쪽, 오른쪽)px을 의미합니다.
 <b>display: flex</b>는 레이아웃을 쉽게 구성하기 위한 방법으로 자세한 내용은 [HEROPY-Flex]님의 작성한 매우 자세히 설명한 글이 있으므로 참고 바랍니다.<br/>
 <b>flex-wrap: wrap</b>은 해당 영역(div)를 래핑?하겠냐는 의미로 반응형 웹을 구현할 때 사용합니다. 브라우저의 width 값을 변경에 따라 아래의 이미지와 같이 출력되는 것(가로로 출력되는 수가 줄고 세로 출력되는 수가 늘어남)을 확인 할 수 있습니다.
 <img src="/assets/image/20210421/ow_2.png" width=350 alt="레이아웃2">
-<img src="/assets/image/20210421/ow_3.png" width=350 alt="레이아웃3">
+<img src="/assets/image/20210421/ow_3.png" width=350 alt="레이아웃3"><br/>
 <b>max-width</b>는 최대 width 너비를 뜻하고, <b>margin</b>은 중앙 정렬을 뜻 합니다.
 <br/>
 ### class="hero"
