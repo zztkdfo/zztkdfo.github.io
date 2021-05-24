@@ -15,14 +15,14 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: 따라만해보자. 기술 블로그
+  title: zztkdfo 기술 블로그
   tagline: Developer. zztkdfo
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
   showPicker: false
   disqus_shortname: zztkdfo
-  
+
 
   # generate social links in footer
   social_links:
@@ -30,7 +30,7 @@ texture:
     github:  zztkdfo
     # linkedIn: in/thelehhman
     rss: rss
- 
+
 # Build settings
 # theme: texture
 
