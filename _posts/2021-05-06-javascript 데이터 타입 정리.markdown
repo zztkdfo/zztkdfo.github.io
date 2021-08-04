@@ -265,3 +265,4 @@ console.log('employee === copyEmployee4:', employee === copyEmployee4);
 이번 작성 주제는 javascript의 데이터타입에 관한 내용이였습니다. 실습 위주로 작성하였기에 한번씩 꼭 따라해보시면 좋을 것 같습니다. <br />
 그리고 Object 관련 내용에서 우리는 얕은복사, 깊은복사에 대한 내용을 추가로 lodash와 같은 라이브러리를 왜 사용하는지에 대한 내용을 간단한 소스 예시와 함께 다음 블로그에서 설명하도록 하겠습니다.<br />
 감사합니다.
+<br/>
