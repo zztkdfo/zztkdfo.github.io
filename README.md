@@ -1,130 +1,34 @@
-# texture
+### zztkdfo 기술 블로그
 
-A configurable jekyll theme for simply beautiful blogs.
+<img src="/assets/image/common/blog.png" alt="blog">
 
-**Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
-
-![texture theme preview](/screen1.png)
-
-
-## Installation on Github Pages
-
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/texture
-```
-
-**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "texture"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: texture
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install texture
-
-## Usage
-
-The "texture" key in _config.yml is used to customize the theme data.
-```yaml
-texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Styling**
-
-Multiple header styles are supported using the "style" property under texture in `_config.yml`.
-
-```yaml
-texture:
-  style: [yellow|red|black|blue|green|purple]
-```
-
-For example, the blue style looks like this:
-
-![texture theme blue](/screen2.png)
+---
+Blog: https://zztkdfo.github.io/
+[1]: [개발자가 기술블로그를 해야하는 이유]
+[2]: [기술블로그 작성 방향]
+[3]: [개발 환경 셋팅(Java, Mysql)]
+[4]: [개발 환경 셋팅(Toad for MySQL)]
+[5]: [Spring Data JPA 핵심 개념]
+[6]: [JPA 사용하기(1)]
+[7]: [JPA 사용하기(2)]
+[8]: [JPA 사용하기(3)]
+[9]: [최신 자바스크립트(1)]
+[10]: [최신 자바스크립트(2)]
+[11]: [OverWatch css 학습 리뷰]
+[12]: [javascript 데이터 타입 정리]
+[13]: [javascript 데이터 타입 정리(2)]
 
 
-**Texture Picker**
-
-You can toggle the texture picker to show/experiment various textures on your site using the showPicker variable. Remember to make it `false` for production.
-
-```yaml
-texture:
-  showPicker: [false|true] # show the texture selector(development purposes)
-```
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under texture in `_config.yml`. For example,
-```yaml
-texture:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under texture in `_config.yml`
-```yaml
-texture:
-  analytics_id: '< YOUR ID >'
-```
-
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
-
-**Toggle Navbar**
-
-```yaml
-texture:
-  showNav: true
-```
-
-**Layouts**
-
-- Home
-- Page
-- Post
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/texture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `texture.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+[개발자가 기술블로그를 해야하는 이유]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/
+[기술블로그 작성 방향]: https://zztkdfo.github.io/posts/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%ED%96%A5/
+[개발 환경 셋팅(Java, Mysql)]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85(1)-(Java,-Mysql)/
+[개발 환경 셋팅(Toad for MySQL)]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85(2)-(Toad-for-MySQL)/
+[Spring Data JPA 핵심 개념]: https://zztkdfo.github.io/posts/Spring-Data-JPA-%ED%95%B5%EC%8B%AC-%EA%B0%9C%EB%85%90/
+[JPA 사용하기(1)]: https://zztkdfo.github.io/posts/JPA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0(1)/
+[JPA 사용하기(2)]: https://zztkdfo.github.io/posts/JPA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0(2)/
+[JPA 사용하기(3)]: https://zztkdfo.github.io/posts/JPA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0(3)/
+[최신 자바스크립트(1)]: https://zztkdfo.github.io/posts/%EC%B5%9C%EC%8B%A0-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8(1)/
+[최신 자바스크립트(2)]: https://zztkdfo.github.io/posts/%EC%B5%9C%EC%8B%A0-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8(2)/
+[OverWatch css 학습 리뷰]: https://zztkdfo.github.io/posts/OverWatch-css-%ED%95%99%EC%8A%B5-%EB%A6%AC%EB%B7%B0/
+[javascript 데이터 타입 정리]: https://zztkdfo.github.io/posts/javascript-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%A0%95%EB%A6%AC/
+[javascript 데이터 타입 정리(2)]: https://zztkdfo.github.io/posts/javascript-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%A0%95%EB%A6%AC(2)/
