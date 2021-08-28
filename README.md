@@ -3,8 +3,7 @@
 ---
 <br />
 Blog: https://zztkdfo.github.io/ <br />
-1: [개발자가 기술블로그를 해야하는 이유](https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/)
- <br />
+1: [개발자가 기술블로그를 해야하는 이유] <br />
 2: [기술블로그 작성 방향] <br />
 3: [개발 환경 셋팅(Java, Mysql)] <br />
 4: [개발 환경 셋팅(Toad for MySQL)] <br />
@@ -18,9 +17,8 @@ Blog: https://zztkdfo.github.io/ <br />
 12: [javascript 데이터 타입 정리] <br />
 13: [javascript 데이터 타입 정리(2)] <br />
 
-
+[개발자가 기술블로그를 해야하는 이유]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/
 [기술블로그 작성 방향]: https://zztkdfo.github.io/posts/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%ED%96%A5/
-
 [개발 환경 셋팅(Java, Mysql)]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85(1)-(Java,-Mysql)/
 [개발 환경 셋팅(Toad for MySQL)]: https://zztkdfo.github.io/posts/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85(2)-(Toad-for-MySQL)/
 [Spring Data JPA 핵심 개념]: https://zztkdfo.github.io/posts/Spring-Data-JPA-%ED%95%B5%EC%8B%AC-%EA%B0%9C%EB%85%90/
