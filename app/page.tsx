@@ -1,4 +1,4 @@
-import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs";
+import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs"
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="mt-8 sm:mt-20">
           <div className="text-3xl sm:text-4xl mb-2">Introduce.</div>
           <div className="w-full border border-t border-solid" />
-          <div className="text-base sm:text-lg">
+          <div className="text-base">
             <div className="mt-4 gap-4 flex justify-between items-center">
               <div className="hidden sm:block rounded-3xl overflow-hidden min-w-24 max-w-32">
                 <img
@@ -84,7 +84,92 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="mt-8 sm:mt-20">
+          <div className="text-3xl sm:text-4xl mb-2">Experience.</div>
+          <div className="w-full border border-t border-solid" />
+          <div className="text-base">
+            <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 ">
+              <div className="w-48">
+                <div className="text-lg">2024.08 ~</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">프리랜서</span>
+                  <span className="xs-badge">퍼스널 브랜딩</span>
+                </div>
+              </div>
+              <div className="sm:pl-12">
+                <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
+                <div> ∙ 프리랜서 개발(프론트엔드 개발) 구직 중</div>
+                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 ">
+              <div className="w-48">
+                <div className="text-lg">2023.02 ~ 2024.07</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">스타트업</span>
+                  <span className="xs-badge">Co-Fonder</span>
+                </div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">프론트엔드 테크 리드</span>
+                </div>
+              </div>
+              <div className="sm:pl-12">
+                <div className="text-2xl">링클로브</div>
+                <div>
+                  ∙ 스타트업 프론트엔드 테크 리드로 프로젝트 개발 및 회사 운영
+                </div>
+                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 ">
+              <div className="w-48">
+                <div className="text-lg">2022.02 ~ 2023.01</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">프론트엔드 테크 리드</span>
+                </div>
+              </div>
+              <div className="sm:pl-12">
+                <div className="text-2xl">아이준</div>
+                <div>
+                  ∙ 스타트업 프론트엔드 테크 리드로 프로젝트 개발 및 회사 운영
+                </div>
+                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 ">
+              <div className="w-48">
+                <div className="text-lg">2014.07 ~ 2022.01</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">Backend 개발</span>
+                  <span className="xs-badge">Frontend 개발</span>
+                </div>
+              </div>
+              <div className="sm:pl-12">
+                <div className="text-2xl">NCITS</div>
+                <div>
+                  ∙ NCSOFT ITSM(IT Service Management) 시스템 Frontend, Backend
+                  개발
+                </div>
+                <div> ∙ NCSOFT ERP 시스템 Backend 개발</div>
+                <div> ∙ NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
+                <div>
+                  ∙ 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
+                  모델링, API, UI/UX 개발
+                </div>
+                <div>∙ MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리</div>
+                <div>
+                  ∙ 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
+                </div>
+                <div> ∙ 레거시 </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
-  );
+  )
 }

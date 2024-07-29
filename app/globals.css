@@ -6,4 +6,8 @@
   .emphasis {
     @apply font-bold italic;
   }
+
+  .xs-badge {
+    @apply text-xs bg-gray-200 rounded-lg pl-2 pr-2 text-gray-700;
+  }
 }
