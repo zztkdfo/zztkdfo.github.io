@@ -1,4 +1,4 @@
-import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs"
+import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -169,7 +169,27 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="mt-8 sm:mt-20">
+          <div className="text-3xl sm:text-4xl mb-2">Project.</div>
+          <div className="w-full border border-t border-solid" />
+        </div>
+
+        <div className="mt-8 sm:mt-20">
+          <div className="text-3xl sm:text-4xl mb-2">Skill.</div>
+          <div className="w-full border border-t border-solid" />
+        </div>
+
+        <div className="mt-8 sm:mt-20">
+          <div className="text-3xl sm:text-4xl mb-2">Writing.</div>
+          <div className="w-full border border-t border-solid" />
+        </div>
+
+        <div className="mt-8 sm:mt-20">
+          <div className="text-3xl sm:text-4xl mb-2">Education.</div>
+          <div className="w-full border border-t border-solid" />
+        </div>
       </div>
     </main>
-  )
+  );
 }
