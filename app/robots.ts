@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       disallow: isDev ? "/" : "",
     },
     sitemap: "https://zztkdfo.github.io/sitemap.xml",
-    host: "https://zztkdfo.github.io/",
+    host: "https://zztkdfo.github.io",
   };
 }
