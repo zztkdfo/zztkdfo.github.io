@@ -28,7 +28,12 @@ export const metadata: Metadata = {
     url: "https://zztkdfo.github.io/",
     images: "/favicon.svg",
   },
-  // verification: verification,
+  verification: {
+    google: "xz7p-PNC9D1tE2LZsKKDmFPIq2Cqs-0rIYyNAlnyQIQ",
+    // other: {
+    //   "naver-site-verification": "66864c75971b64528e7e52f8106bc90fef741c15",
+    // },
+  },
   // robots: {
   //   index: isProduction,
   //   follow: isProduction,
