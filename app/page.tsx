@@ -99,7 +99,7 @@ export default function Home() {
               </div>
               <div className="sm:pl-12">
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
-                <div> ∙ 프리랜서 개발(프론트엔드 개발) 구직 중</div>
+                <div> ∙ 프리랜서 프론트엔드 개발자</div>
                 <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
               </div>
             </div>
@@ -118,9 +118,10 @@ export default function Home() {
               <div className="sm:pl-12">
                 <div className="text-2xl">링클로브</div>
                 <div>
-                  ∙ 스타트업 프론트엔드 테크 리드로 프로젝트 개발 및 회사 운영
+                  ∙ 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
+                  및 회사 운영
                 </div>
-                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+                <div> ∙ </div>
               </div>
             </div>
 
@@ -133,10 +134,8 @@ export default function Home() {
               </div>
               <div className="sm:pl-12">
                 <div className="text-2xl">아이준</div>
-                <div>
-                  ∙ 스타트업 프론트엔드 테크 리드로 프로젝트 개발 및 회사 운영
-                </div>
-                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+                <div>∙</div>
+                <div> ∙ </div>
               </div>
             </div>
 
@@ -164,7 +163,7 @@ export default function Home() {
                 <div>
                   ∙ 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
                 </div>
-                <div> ∙ 레거시 </div>
+                <div> ∙ 레거시 청산 및 프론트엔드 개발자로 전환</div>
               </div>
             </div>
           </div>
@@ -178,10 +177,57 @@ export default function Home() {
         <div className="mt-8 sm:mt-20">
           <div className="text-3xl sm:text-4xl mb-2">Skill.</div>
           <div className="w-full border border-t border-solid" />
+
+          <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-8">
+            <div className="w-48">
+              <div className="text-2xl font-semibold">Frontend</div>
+            </div>
+            <div className="sm:pl-12">
+              <div>
+                Nextjs, React, Threejs, HTMS, Javascript, CSS, Typescript,
+              </div>
+              <div>
+                Tailwindcss, Redux, React query, recoil, Antd, MUI, Bootstrap,
+                Etc
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-8">
+            {" "}
+            <div className="w-48">
+              <div className="text-2xl font-semibold">Backend</div>
+            </div>
+            <div className="sm:pl-12">
+              <div>
+                Java, Spring Boot, Spring Data JPA, Redis, Nodejs, Express,
+                Mysql,
+              </div>
+              <div> Mssql, GraphQL, Elastic search, Etc</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+          <div className="w-48">
+            <div className="text-2xl font-semibold">Common</div>
+          </div>
+          <div className="sm:pl-12">
+            <div>
+              Chatgpt, Git, Github, Jira, Confluence, Slack, Docker, Jenkins,
+            </div>
+            <div> Visual Studio Code, Figma, Etc</div>
+          </div>
         </div>
 
         <div className="mt-8 sm:mt-20">
-          <div className="text-3xl sm:text-4xl mb-2">Writing.</div>
+          <div className="text-3xl sm:text-4xl mb-2 sm:flex sm:items-end sm:gap-2">
+            <div>Writing. </div>
+            <div className="text-sm ">
+              (나의 가치관인 <strong>실천</strong>, <strong>꾸준함</strong>,{" "}
+              <strong>습관</strong>에 대해 글로 표현)
+            </div>
+          </div>
           <div className="w-full border border-t border-solid" />
           <div className="mt-4">
             <div>
