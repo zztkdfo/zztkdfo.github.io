@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs";
 
 export default function Home() {
@@ -14,7 +15,9 @@ export default function Home() {
           <div className="">
             <div className="gap-4 flex justify-end ">
               <div className="text-2xl sm:text-3xl cursor-pointer">
-                <BsGithub />
+                <Link href={"https://github.com/zztkdfo/"} target="_blank">
+                  <BsGithub />
+                </Link>
               </div>
               <div className="text-2xl sm:text-3xl cursor-pointer">
                 <BsJournalText />
@@ -44,7 +47,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                저는 대기업 IT 웹 서비스에서{" "}
+                반갑습니다. 저는 대기업 IT 웹 서비스에서{" "}
                 <span className="emphasis">풀스택(Java, React) 개발</span>과
                 스타트업 (Co-founder)에서{" "}
                 <span className="emphasis">프론트엔드 테크 리드</span>로서
@@ -91,7 +94,7 @@ export default function Home() {
           <div className="text-base">
             <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
               <div className="w-48">
-                <div className="text-lg">2024.08 ~</div>
+                <div className="text-xl">2024.08 ~</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프리랜서</span>
                   <span className="xs-badge">퍼스널 브랜딩</span>
@@ -99,15 +102,17 @@ export default function Home() {
               </div>
               <div className="sm:pl-12">
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
-                <div> ∙ 프리랜서 프론트엔드 개발자</div>
-                <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
-                <div> ∙ 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
+                <div className="mt-2 sm:pl-2">
+                  <div> ∙ 프리랜서 프론트엔드 개발자</div>
+                  <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+                  <div> ∙ 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
+                </div>
               </div>
             </div>
 
             <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
               <div className="w-48">
-                <div className="text-lg">2023.02 ~ 2024.07</div>
+                <div className="text-xl">2023.02 ~ 2024.07</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">스타트업</span>
                   <span className="xs-badge">Co-Fonder</span>
@@ -117,36 +122,43 @@ export default function Home() {
                 </div>
               </div>
               <div className="sm:pl-12">
-                <div className="text-2xl">링클로브</div>
-                <div>
-                  ∙ 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
-                  및 회사 운영
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>링클로브</div>
+                  <div className="text-sm ">(AI+DX 스타트업 )</div>
                 </div>
-                <div>
-                  ∙ B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발 및
-                  제공
-                </div>
-                <div>
-                  ∙ 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
-                </div>
-                <div> ∙ 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
-                <div>∙ React, Nextjs를 사용한 다수의 웹 애플리케이션 개발</div>
-                <div> ∙ 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
-                <div> ∙ 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
-                <div>
-                  ∙ 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
-                </div>
-                <div>
-                  <div> ∙ 다수의 IT 전시회 참가 with 협력사 </div>
-                  <div className="pl-4">
-                    - 일본 EdgeTech+ 2023 참가 (일본에서 가장 큰 IT 전시회) with
-                    brycen jp
+                <div className="mt-2 sm:pl-2">
+                  <div>
+                    ∙ 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
+                    및 회사 운영
                   </div>
-                  <div className="pl-4">
-                    - 킨테스 보안 전시회 2024 참가 with cammsys
+                  <div>
+                    ∙ B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발
+                    및 제공
                   </div>
-                  <div className="pl-4">
-                    - 코엑스 AI 대전 2024 참가 with brycen kr
+                  <div>
+                    ∙ 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
+                  </div>
+                  <div> ∙ 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
+                  <div>
+                    ∙ React, Nextjs를 사용한 다수의 웹 애플리케이션 개발
+                  </div>
+                  <div> ∙ 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
+                  <div> ∙ 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
+                  <div>
+                    ∙ 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
+                  </div>
+                  <div>
+                    <div> ∙ 다수의 IT 전시회 참가 with 협력사 </div>
+                    <div className="pl-4">
+                      - 일본 EdgeTech+ 2023 참가 (일본에서 가장 큰 IT 전시회)
+                      with brycen jp
+                    </div>
+                    <div className="pl-4">
+                      - 킨테스 보안 전시회 2024 참가 with cammsys
+                    </div>
+                    <div className="pl-4">
+                      - 코엑스 AI 대전 2024 참가 with brycen kr
+                    </div>
                   </div>
                 </div>
               </div>
@@ -154,48 +166,61 @@ export default function Home() {
 
             <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
               <div className="w-48">
-                <div className="text-lg">2022.02 ~ 2023.01</div>
+                <div className="text-xl">2022.02 ~ 2023.01</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프론트엔드 테크 리드</span>
                 </div>
               </div>
               <div className="sm:pl-12">
-                <div className="text-2xl">아이준</div>
-                <div> ∙ 스마트 팩토리 솔루션 개발</div>
-                <div> ∙ B2B 서버실 출입 통제 솔루션 개발</div>
-                <div>
-                  {" "}
-                  ∙ 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>아이준</div>
+                  <div className="text-sm ">(AIoT 전문기업)</div>
                 </div>
-                <div> ∙ 주니어 개발자 멘토링 및 코드 리뷰</div>
+                <div className="mt-2 sm:pl-2">
+                  <div> ∙ 스마트 팩토리 솔루션 개발</div>
+                  <div> ∙ B2B 서버실 출입 통제 솔루션 개발</div>
+                  <div>
+                    ∙ 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
+                  </div>
+                  <div> ∙ 주니어 개발자 멘토링 및 코드 리뷰</div>
+                </div>
               </div>
             </div>
 
             <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
               <div className="w-48">
-                <div className="text-lg">2014.07 ~ 2022.01</div>
+                <div className="text-xl">2014.07 ~ 2022.01</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">Backend 개발</span>
                   <span className="xs-badge">Frontend 개발</span>
                 </div>
               </div>
               <div className="sm:pl-12">
-                <div className="text-2xl">NCITS</div>
-                <div>
-                  ∙ NCSOFT ITSM(IT Service Management) 시스템 Frontend, Backend
-                  개발
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>NCITS</div>
+                  <div className="text-sm ">
+                    (NCSOFT 자회사. 사내용 IT 서비스 구축 및 제공)
+                  </div>
                 </div>
-                <div> ∙ NCSOFT ERP 시스템 Backend 개발</div>
-                <div> ∙ NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
-                <div>
-                  ∙ 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
-                  모델링, API, UI/UX 개발
+                <div className="mt-2 sm:pl-2">
+                  <div>
+                    ∙ NCSOFT ITSM(IT Service Management) 시스템 Frontend,
+                    Backend 개발
+                  </div>
+                  <div> ∙ NCSOFT ERP 시스템 Backend 개발</div>
+                  <div> ∙ NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
+                  <div>
+                    ∙ 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
+                    모델링, API, UI/UX 개발
+                  </div>
+                  <div>
+                    ∙ MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리
+                  </div>
+                  <div>
+                    ∙ 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
+                  </div>
+                  <div> ∙ 레거시 청산 및 프론트엔드 개발자로 전환</div>
                 </div>
-                <div>∙ MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리</div>
-                <div>
-                  ∙ 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
-                </div>
-                <div> ∙ 레거시 청산 및 프론트엔드 개발자로 전환</div>
               </div>
             </div>
           </div>
@@ -204,6 +229,133 @@ export default function Home() {
         <div className="mt-8 sm:mt-20">
           <div className="text-3xl sm:text-4xl mb-2">Project.</div>
           <div className="w-full border border-t border-solid" />
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl">2024.03 ~ </div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>AIHADA</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div>
+                  ∙ LLM 캐릭터 대화 기반 다중 도메인 멀티에이전트 서비스
+                </div>
+                <div> ∙ 작성 중</div>
+                {/* <div className="">
+                  <a
+                    className="text-blue-500"
+                    target="_blank"
+                    href="https://digitalchosun.dizzo.com/site/data/html_dir/2024/04/22/2024042280158.html"
+                  >
+                    ∙ 관련 기사
+                  </a>
+                </div> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 2023.08 ~ 2023.12</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>DX 플랫폼</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div> ∙ 일본 EdgeTech+ 2023 플랫폼</div>
+                <div> ∙ 작성 중</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 2023.02 ~ 2023.08</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>패밀리타운</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div>
+                  {" "}
+                  ∙ Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼
+                </div>
+                <div> ∙ 작성 중</div>
+                <div className="">
+                  <a
+                    className="text-blue-500"
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
+                  >
+                    ∙ 관련 정보
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 ITSM</div>
+                <div className="text-sm ">(IT Service Management)</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div> ∙ 프론트엔드 개발자로 전환</div>
+                <div> ∙ 작성 중</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 ITSM </div>
+                <div className="text-sm ">(IT Service Management)</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div> ∙ 작성 중</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 ERP</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div> ∙ 작성 중</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 NCDINOS 선수관리 시스템</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div> ∙ 작성 중</div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="mt-8 sm:mt-20">

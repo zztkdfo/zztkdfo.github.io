@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     type: "website",
     url: "https://zztkdfo.github.io/",
-    images: "/favicon.svg",
+    images: "/image.jpg",
   },
   verification: {
     google: "xz7p-PNC9D1tE2LZsKKDmFPIq2Cqs-0rIYyNAlnyQIQ",
