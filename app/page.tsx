@@ -101,6 +101,7 @@ export default function Home() {
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
                 <div> ∙ 프리랜서 프론트엔드 개발자</div>
                 <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+                <div> ∙ 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
               </div>
             </div>
 
@@ -121,7 +122,33 @@ export default function Home() {
                   ∙ 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
                   및 회사 운영
                 </div>
-                <div> ∙ </div>
+                <div>
+                  ∙ B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발 및
+                  제공
+                </div>
+                <div>
+                  ∙ 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
+                </div>
+                <div> ∙ 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
+                <div>∙ React, Nextjs를 사용한 다수의 웹 애플리케이션 개발</div>
+                <div> ∙ 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
+                <div> ∙ 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
+                <div>
+                  ∙ 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
+                </div>
+                <div>
+                  <div> ∙ 다수의 IT 전시회 참가 with 협력사 </div>
+                  <div className="pl-4">
+                    - 일본 EdgeTech+ 2023 참가 (일본에서 가장 큰 IT 전시회) with
+                    brycen jp
+                  </div>
+                  <div className="pl-4">
+                    - 킨테스 보안 전시회 2024 참가 with cammsys
+                  </div>
+                  <div className="pl-4">
+                    - 코엑스 AI 대전 2024 참가 with brycen kr
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -134,8 +161,13 @@ export default function Home() {
               </div>
               <div className="sm:pl-12">
                 <div className="text-2xl">아이준</div>
-                <div>∙</div>
-                <div> ∙ </div>
+                <div> ∙ 스마트 팩토리 솔루션 개발</div>
+                <div> ∙ B2B 서버실 출입 통제 솔루션 개발</div>
+                <div>
+                  {" "}
+                  ∙ 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
+                </div>
+                <div> ∙ 주니어 개발자 멘토링 및 코드 리뷰</div>
               </div>
             </div>
 
