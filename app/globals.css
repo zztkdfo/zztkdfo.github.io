@@ -7,6 +7,10 @@
     @apply font-bold italic;
   }
 
+  .skills {
+    @apply mt-1 pl-2 pr-2 bg-black text-white rounded-md text-sm;
+  }
+
   .xs-badge {
     @apply text-xs bg-gray-200 rounded-lg pl-2 pr-2 text-gray-700;
   }

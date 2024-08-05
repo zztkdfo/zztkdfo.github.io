@@ -103,9 +103,9 @@ export default function Home() {
               <div className="sm:pl-12">
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
                 <div className="mt-2 sm:pl-2">
-                  <div> ∙ 프리랜서 프론트엔드 개발자</div>
-                  <div> ∙ 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
-                  <div> ∙ 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
+                  <div> • 프리랜서 프론트엔드 개발자</div>
+                  <div> • 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
+                  <div> • 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
                 </div>
               </div>
             </div>
@@ -128,27 +128,27 @@ export default function Home() {
                 </div>
                 <div className="mt-2 sm:pl-2">
                   <div>
-                    ∙ 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
+                    • 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
                     및 회사 운영
                   </div>
                   <div>
-                    ∙ B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발
+                    • B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발
                     및 제공
                   </div>
                   <div>
-                    ∙ 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
+                    • 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
                   </div>
-                  <div> ∙ 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
+                  <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
                   <div>
-                    ∙ React, Nextjs를 사용한 다수의 웹 애플리케이션 개발
+                    • React, Nextjs를 사용한 다수의 웹 애플리케이션 개발
                   </div>
-                  <div> ∙ 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
-                  <div> ∙ 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
+                  <div> • 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
+                  <div> • 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
                   <div>
-                    ∙ 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
+                    • 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
                   </div>
                   <div>
-                    <div> ∙ 다수의 IT 전시회 참가 with 협력사 </div>
+                    <div> • 다수의 IT 전시회 참가 with 협력사 </div>
                     <div className="pl-4">
                       - 일본 EdgeTech+ 2023 참가 (일본에서 가장 큰 IT 전시회)
                       with brycen jp
@@ -177,12 +177,12 @@ export default function Home() {
                   <div className="text-sm ">(AIoT 전문기업)</div>
                 </div>
                 <div className="mt-2 sm:pl-2">
-                  <div> ∙ 스마트 팩토리 솔루션 개발</div>
-                  <div> ∙ B2B 서버실 출입 통제 솔루션 개발</div>
+                  <div> • 스마트 팩토리 솔루션 개발</div>
+                  <div> • B2B 서버실 출입 통제 솔루션 개발</div>
                   <div>
-                    ∙ 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
+                    • 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
                   </div>
-                  <div> ∙ 주니어 개발자 멘토링 및 코드 리뷰</div>
+                  <div> • 주니어 개발자 멘토링 및 코드 리뷰</div>
                 </div>
               </div>
             </div>
@@ -204,22 +204,22 @@ export default function Home() {
                 </div>
                 <div className="mt-2 sm:pl-2">
                   <div>
-                    ∙ NCSOFT ITSM(IT Service Management) 시스템 Frontend,
+                    • NCSOFT ITSM(IT Service Management) 시스템 Frontend,
                     Backend 개발
                   </div>
-                  <div> ∙ NCSOFT ERP 시스템 Backend 개발</div>
-                  <div> ∙ NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
+                  <div> • NCSOFT ERP 시스템 Backend 개발</div>
+                  <div> • NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
                   <div>
-                    ∙ 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
+                    • 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
                     모델링, API, UI/UX 개발
                   </div>
                   <div>
-                    ∙ MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리
+                    • MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리
                   </div>
                   <div>
-                    ∙ 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
+                    • 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
                   </div>
-                  <div> ∙ 레거시 청산 및 프론트엔드 개발자로 전환</div>
+                  <div> • 레거시 청산 및 프론트엔드 개발자로 전환</div>
                 </div>
               </div>
             </div>
@@ -239,17 +239,39 @@ export default function Home() {
                 <div>AIHADA</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div>
-                  ∙ LLM 캐릭터 대화 기반 다중 도메인 멀티에이전트 서비스
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
                 </div>
-                <div> ∙ 작성 중</div>
+                <div>
+                  • LLM(대형 언어 모델) 캐릭터 대화 기반 다중 도메인
+                  멀티에이전트 서비스
+                </div>
+                <div>
+                  {" "}
+                  • Threejs(react-three-fiber, Drei, mixamo)를 통한 3D 모델 웹
+                  기능 구현
+                </div>
+                <div> • 대화형 ChatBot UI/UX 개발</div>
+                <div> • LLM Option Admin 백오피스 툴 개발</div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">nextjs</div>
+                  <div className="skills">trheejs</div>
+                  <div className="skills">typescript</div>
+                  <div className="skills">recoil</div>
+                  <div className="skills">antd</div>
+                  <div className="skills">tailwindcss</div>
+                  <div className="skills">framer motion</div>
+                  <div className="skills">etc</div>
+                </div>
                 {/* <div className="">
                   <a
                     className="text-blue-500"
                     target="_blank"
                     href="https://digitalchosun.dizzo.com/site/data/html_dir/2024/04/22/2024042280158.html"
                   >
-                    ∙ 관련 기사
+                    • 관련 기사
                   </a>
                 </div> */}
               </div>
@@ -262,11 +284,50 @@ export default function Home() {
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>DX 플랫폼</div>
+                <div>AI + DX 플랫폼</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div> ∙ 일본 EdgeTech+ 2023 플랫폼</div>
-                <div> ∙ 작성 중</div>
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
+                </div>
+                <div>
+                  {" "}
+                  • 일본 EdgeTech+ 2023 전시 참가를 위한 ai, hardware, software
+                  기반(AIOT) ai + dx플랫폼
+                </div>
+                <div>
+                  • Layout에 대한 유동적인 UI/UX를 react dnd로 구현 및 적용
+                </div>
+                <div>
+                  • 글로벌 전시회에 맞춰 다국어 적용 및 구현 (영어, 일본어,
+                  중국어, 한국어)
+                </div>
+                <div>• 작성 중</div>
+
+                <div className="text-blue-500">
+                  <span className="cursor-pointer">• 관련 정보</span>
+                </div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">react</div>
+                  <div className="skills">vite</div>
+                  <div className="skills">recoil</div>
+                  <div className="skills">react query</div>
+                  <div className="skills">react dnd</div>
+                  <div className="skills">i18next</div>
+                  <div className="skills">trheejs</div>
+                </div>
+
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">goJS</div>
+                  <div className="skills">apexCharts</div>
+                  <div className="skills">typescript</div>
+                  <div className="skills">bootstrap</div>
+                  <div className="skills">antd</div>
+                  <div className="skills">framer motion</div>
+                  <div className="skills">etc</div>
+                </div>
               </div>
             </div>
           </div>
@@ -282,16 +343,16 @@ export default function Home() {
               <div className="mt-2 sm:pl-2">
                 <div>
                   {" "}
-                  ∙ Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼
+                  • Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼
                 </div>
-                <div> ∙ 작성 중</div>
+                <div> • 작성 중</div>
                 <div className="">
                   <a
                     className="text-blue-500"
                     target="_blank"
                     href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
                   >
-                    ∙ 관련 정보
+                    • 관련 정보
                   </a>
                 </div>
               </div>
@@ -308,8 +369,8 @@ export default function Home() {
                 <div className="text-sm ">(IT Service Management)</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div> ∙ 프론트엔드 개발자로 전환</div>
-                <div> ∙ 작성 중</div>
+                <div> • 프론트엔드 개발자로 전환</div>
+                <div> • 작성 중</div>
               </div>
             </div>
           </div>
@@ -324,7 +385,7 @@ export default function Home() {
                 <div className="text-sm ">(IT Service Management)</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div> ∙ 작성 중</div>
+                <div> • 작성 중</div>
               </div>
             </div>
           </div>
@@ -338,7 +399,7 @@ export default function Home() {
                 <div>엔씨소프트 ERP</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div> ∙ 작성 중</div>
+                <div> • 작성 중</div>
               </div>
             </div>
           </div>
@@ -352,7 +413,7 @@ export default function Home() {
                 <div>엔씨소프트 NCDINOS 선수관리 시스템</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div> ∙ 작성 중</div>
+                <div> • 작성 중</div>
               </div>
             </div>
           </div>
@@ -398,7 +459,8 @@ export default function Home() {
           </div>
           <div className="sm:pl-12">
             <div>
-              Chatgpt, Git, Github, Jira, Confluence, Slack, Docker, Jenkins,
+              Chatgpt, Git, Github, Jira, Confluence, Trello, Slack, Docker,
+              Jenkins,
             </div>
             <div> Visual Studio Code, Figma, Etc</div>
           </div>
