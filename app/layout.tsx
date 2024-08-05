@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: "프론트엔드 개발자 이상래의 포트폴리오입니다.",
   openGraph: {
     title: "이상래 | 프론트엔드 개발자",
-    description: "프론트엔드 개발자 이상래의 포트폴리오입니다.",
+    description: "개인 이력서 및 포트폴리오",
     siteName: "이상래 | 프론트엔드 개발자",
     locale: "ko_KR",
     type: "website",

@@ -418,6 +418,16 @@ export default function Home() {
               <a
                 className="text-blue-500"
                 target="_blank"
+                href="https://disquiet.io/@zztkdfo/makerlog/%EB%82%AB%ED%88%AC%EB%91%90-not-to-do-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%83%9D%EC%9D%84-%EB%B3%80%ED%99%94%EC%8B%9C%ED%82%A4%EB%8A%94-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EA%B0%81"
+              >
+                낫투두(Not To Do) 리스트: 인생을 변화시키는 새로운 시각
+              </a>
+            </div>
+
+            <div>
+              <a
+                className="text-blue-500"
+                target="_blank"
                 href="https://disquiet.io/@zztkdfo/makerlog/%EC%88%98%EC%9A%94%EC%9E%90%EC%97%90%EC%84%9C-%EA%B3%B5%EA%B8%89%EC%9E%90%EB%A1%9C%EC%9D%98-%EB%B3%80%ED%99%98-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%B3%80%ED%99%94%ED%95%9C-%EC%83%9D%EA%B0%81%EA%B3%BC-%EB%A7%88%EC%9D%B8%EB%93%9C"
               >
                 수요자에서 공급자로의 변환: 글을 쓰면서 변화한 생각과 마인드
