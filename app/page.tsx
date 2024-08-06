@@ -305,8 +305,12 @@ export default function Home() {
                 </div>
                 <div>• 작성 중</div>
 
-                <div className="text-blue-500">
-                  <span className="cursor-pointer">• 관련 정보</span>
+                <div className="">
+                  {" "}
+                  •{" "}
+                  <span className="cursor-pointer text-blue-500">
+                    관련 정보
+                  </span>
                 </div>
                 <div className="font-semibold"> • Skill Keywords</div>
                 <div className="pl-3 gap-1 flex flex-wrap">
@@ -341,19 +345,56 @@ export default function Home() {
                 <div>패밀리타운</div>
               </div>
               <div className="mt-2 sm:pl-2">
-                <div>
-                  {" "}
-                  • Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
                 </div>
-                <div> • 작성 중</div>
+                <div>• Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼</div>
+                <div>
+                  • 서버 상태는 React Query로 관리, 클라이언트 상태 관리
+                  Recoil로 관리 및 구현
+                </div>
+                <div className="sm:hidden">
+                  • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
+                  알람, 일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발
+                  및 구현
+                </div>
+                <div className="hidden sm:block">
+                  • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
+                  알람
+                </div>
+                <div className="hidden sm:block sm:pl-3">
+                  일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발 및 구현
+                </div>
                 <div className="">
+                  •{" "}
                   <a
                     className="text-blue-500"
                     target="_blank"
                     href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
                   >
-                    • 관련 정보
+                    관련 정보
                   </a>
+                </div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">sendbird sdk</div>
+                  <div className="skills">sendbird ui kit</div>
+                  <div className="skills">react</div>
+                  <div className="skills">vite</div>
+                  <div className="skills">recoil</div>
+                  <div className="skills">react query</div>
+                  <div className="skills">typescript</div>
+                </div>
+
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">figma</div>
+                  <div className="skills">bootstrap</div>
+                  <div className="skills">antd</div>
+                  <div className="skills">slack</div>
+                  <div className="skills">jira</div>
+                  <div className="skills">confluence</div>
+                  <div className="skills">etc</div>
                 </div>
               </div>
             </div>
