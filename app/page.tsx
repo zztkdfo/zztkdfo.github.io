@@ -29,11 +29,14 @@ export default function Home() {
                   <BsGithub />
                 </Link>
               </div>
+
               <div className="text-2xl sm:text-3xl cursor-pointer">
-                <BsJournalText />
-              </div>
-              <div className="text-2xl sm:text-3xl cursor-pointer">
-                <BsGlobe2 />
+                <Link
+                  href={"https://portfolio-zztkdfo.vercel.app/"}
+                  target="_blank"
+                >
+                  <BsGlobe2 />
+                </Link>
               </div>
             </div>
             <div className="mt-2">
