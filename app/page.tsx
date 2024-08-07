@@ -248,7 +248,61 @@ export default function Home() {
           <div className="w-full border border-t border-solid" />
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
-              <div className="text-xl">2024.03 ~ </div>
+              <div className="text-xl">2024.08 ~ </div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>이력서, 포트폴리오</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 설계 및 개발
+                </div>
+                <div>• 본인에 대한 이력서 작성</div>
+                <div>• 본인에 대한 포트폴리오 작성</div>
+                <div className="">
+                  •{" "}
+                  <a
+                    className="text-blue-500"
+                    href="https://zztkdfo.github.io/"
+                  >
+                    관련 정보 (이력서)
+                  </a>
+                </div>
+                <div className="">
+                  •{" "}
+                  <a
+                    className="text-blue-500"
+                    target="_blank"
+                    href="https://portfolio-zztkdfo.vercel.app/"
+                  >
+                    관련 정보 (포트폴리오)
+                  </a>
+                </div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">nextjs</div>
+                  <div className="skills">trheejs</div>
+                  <div className="skills">shadcn/ui</div>
+                  <div className="skills">tailwindcss</div>
+                  <div className="skills">framer motion</div>
+                  <div className="skills">etc</div>
+                </div>
+                {/* <div className="">
+                  <a
+                    className="text-blue-500"
+                    target="_blank"
+                    href="https://digitalchosun.dizzo.com/site/data/html_dir/2024/04/22/2024042280158.html"
+                  >
+                    • 관련 기사
+                  </a>
+                </div> */}
+              </div>
+            </div>
+          </div>
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl">2024.03 ~ 2024.08</div>
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
