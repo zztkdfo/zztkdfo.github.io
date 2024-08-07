@@ -60,7 +60,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                반갑습니다. 저는 대기업 IT 웹 서비스에서{" "}
+                반갑습니다. 저는 다수의 IT 웹 서비스에서{" "}
                 <span className="emphasis">풀스택(Java, React) 개발</span>과
                 스타트업 (Co-founder)에서{" "}
                 <span className="emphasis">프론트엔드 테크 리드</span>로서
