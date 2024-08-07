@@ -615,7 +615,9 @@ export default function Home() {
                       <DialogTrigger>
                         관련 정보(대외비로 이미지가 흐릿할 수 있음)
                       </DialogTrigger>
-                      <DialogContent className="max-w-fit">
+                      <DialogContent className="max-w-3xl">
+                        {" "}
+                        {/* 크기 조정 */}
                         <DialogHeader>
                           <DialogTitle>
                             이외 다수 프로젝트 및 토이 프로젝트
