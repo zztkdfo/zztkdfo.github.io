@@ -18,7 +18,7 @@ export default function Home() {
           <div className="text-2xl sm:text-3xl font-bold">
             <div>이상래</div>
             <div className="text-sm sm:text-base italic text-[#c3c3c3]">
-              프론트엔드 개발자
+              프론트엔드 개발자 | 퍼스널 브랜딩
             </div>
           </div>
 
