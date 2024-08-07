@@ -51,7 +51,7 @@ export default function Home() {
               <div className="hidden sm:block rounded-3xl overflow-hidden min-w-24 max-w-32">
                 <img
                   className="w-full h-full object-cover"
-                  src="image.jpg"
+                  src="/images/image.jpg"
                   alt="Avatar"
                 />
               </div>
@@ -238,7 +238,6 @@ export default function Home() {
         <div className="mt-8 sm:mt-20">
           <div className="text-3xl sm:text-4xl mb-2">Project.</div>
           <div className="w-full border border-t border-solid" />
-
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
               <div className="text-xl">2024.03 ~ </div>
@@ -286,7 +285,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
               <div className="text-xl"> 2023.08 ~ 2023.12</div>
@@ -339,16 +337,16 @@ export default function Home() {
                           <DialogDescription className="pt-2">
                             <div className="space-y-2 h-[800px] overflow-auto">
                               <div>
-                                <img src="/japan1.jpeg" alt="edgetech" />
+                                <img src="/images/japan1.jpeg" alt="edgetech" />
                               </div>
                               <div>
-                                <img src="/japan2.jpeg" alt="edgetech" />
+                                <img src="/images/japan2.jpeg" alt="edgetech" />
                               </div>
                               <div>
-                                <img src="/japan3.jpeg" alt="edgetech" />
+                                <img src="/images/japan3.jpeg" alt="edgetech" />
                               </div>
                               <div>
-                                <img src="/japan4.jpeg" alt="edgetech" />
+                                <img src="/images/japan4.jpeg" alt="edgetech" />
                               </div>
                             </div>
                           </DialogDescription>
@@ -380,7 +378,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
               <div className="text-xl"> 2023.02 ~ 2023.08</div>
@@ -411,6 +408,10 @@ export default function Home() {
                 <div className="hidden sm:block sm:pl-3">
                   일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발 및 구현
                 </div>
+                <div>
+                  • 이전 프로젝트들의 불편함을 보완하기 위한 container /
+                  presenter 패턴 적용
+                </div>
                 <div className="">
                   •{" "}
                   <a
@@ -418,7 +419,7 @@ export default function Home() {
                     target="_blank"
                     href="https://www.family-town.com/features"
                   >
-                    관련 정보
+                    관련 정보 (PC 버전)
                   </a>
                 </div>
                 <div className="">
@@ -454,67 +455,56 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
-              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+              <div className="text-xl"> 2019.02 ~ 2022.02</div>
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ITSM</div>
-                <div className="text-sm ">(IT Service Management)</div>
+                <div>엔씨소프트 ITSM 리뉴얼 TF</div>
               </div>
               <div className="mt-2 sm:pl-2">
                 <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
+                  <strong>주요 역할:</strong> 백엔드 개발, 프론트엔드 개발
                 </div>
-                <div> • 프론트엔드 개발자로 전환</div>
-                <div> • 작성 중</div>
+                <div> • 백엔드 개발에서 프론트엔드 개발로 전환</div>
+                <div> • 동적 UI + Workflow 기반 처리 구조</div>
+                <div> • 설정 기반 개인화 대시보드 적용</div>
+                <div>
+                  {" "}
+                  • 사용자/부서, 업무, 그룹, 워크플로우, 서비스 요청, 티켓,
+                  문의, 템플릿, 등등 여러 서비스 개발 및 개선
+                </div>
+
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">spring boot</div>
+                  <div className="skills">spring data jpa</div>
+                  <div className="skills">rabbitmq</div>
+                  <div className="skills">redis</div>
+                  <div className="skills">firebase</div>
+                  <div className="skills">mariadB</div>
+                  <div className="skills">els</div>
+                  <div className="skills">graphql</div>
+                  <div className="skills">swagger ui</div>
+                </div>
+
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">react</div>
+                  <div className="skills">react native</div>
+                  <div className="skills">styled components</div>
+                  <div className="skills">antd</div>
+                  <div className="skills">redux</div>
+                  <div className="skills">lerna</div>
+                  <div className="skills">webppack</div>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
             <div className="w-48">
-              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ITSM 레거시</div>
-                <div className="text-sm ">(IT Service Management)</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
-                </div>
-                <div> • 작성 중</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ERP</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
-                </div>
-                <div> • 작성 중</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 20XX.XX ~ 20XX.XX</div>
+              <div className="text-xl"> 2016.06 ~ 2016.12</div>
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
@@ -522,10 +512,132 @@ export default function Home() {
               </div>
               <div className="mt-2 sm:pl-2">
                 <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
+                  <strong>주요 역할:</strong> 메인 개발, 풀스택 개발
                 </div>
-                <div> • 작성 중</div>
+                <div>
+                  • 선수에 대한 야구 데이터를 기록/통계하여 선수관리 시스템
+                </div>
+                <div>• MVC 패턴에 따른 모델 설계</div>
+                <div>• DB 셋팅 Table 설계 및 최적화</div>
+                <div>• Chart를 통한 통계 데이터 visualization</div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">c# .net</div>
+                  <div className="skills">jquery</div>
+                  <div className="skills">ms sql</div>
+                  <div className="skills">stored procedure</div>
+                  <div className="skills">post man</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 2015.01 ~ 2019.01</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 레거시 ITSM </div>
+                <div className="text-sm ">(IT Service Management)</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 풀스택 개발
+                </div>
+                <div> • 기존 시스템의 유지보수 및 기능 개선</div>
+                <div> • 클라이언트와 데이터 통신을 위한 API 개발</div>
+                <div>
+                  {" "}
+                  • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
+                </div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">c# .net</div>
+                  <div className="skills">jquery</div>
+                  <div className="skills">ms sql</div>
+                  <div className="skills">stored procedure</div>
+                  <div className="skills">post man</div>
+                  <div className="skills">spring</div>
+                  <div className="skills">mybitis</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 2014.07 ~ 2019.01</div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>엔씨소프트 ERP</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 풀스택 개발
+                </div>
+                <div> • 기존 시스템의 유지보수 및 기능 개선</div>
+                <div> • 클라이언트와 데이터 통신을 위한 API 개발</div>
+                <div>
+                  • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
+                </div>
+                <div className="font-semibold"> • Skill Keywords</div>
+                <div className="pl-3 gap-1 flex flex-wrap">
+                  <div className="skills">c# .net</div>
+                  <div className="skills">jquery</div>
+                  <div className="skills">ms sql</div>
+                  <div className="skills">stored procedure</div>
+                  <div className="skills">post man</div>
+                  <div className="skills">spring</div>
+                  <div className="skills">mybitis</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+            <div className="w-48">
+              <div className="text-xl"> 2014.07 ~ </div>
+            </div>
+            <div className="sm:pl-12">
+              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                <div>이외 다수 프로젝트 및 토이 프로젝트</div>
+              </div>
+              <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 풀스택 개발
+                </div>
+                <div> • 학습을 위한 프로젝트 및 학습</div>
+                <div> • 비즈니스 성사를 위한 Demo 개발</div>
+                <div className="">
+                  {" "}
+                  •{" "}
+                  <span className="cursor-pointer text-blue-500">
+                    <Dialog>
+                      <DialogTrigger>
+                        관련 정보(대외비로 이미지가 흐릿할 수 있음)
+                      </DialogTrigger>
+                      <DialogContent className="max-w-fit">
+                        <DialogHeader>
+                          <DialogTitle>
+                            이외 다수 프로젝트 및 토이 프로젝트
+                          </DialogTitle>
+                          <DialogDescription className="pt-2">
+                            <div className="space-y-2 h-[800px] overflow-auto">
+                              {[...Array(18)].map((_, index) => (
+                                <div>
+                                  <img
+                                    width={800}
+                                    src={`/images/project${index + 1}.png`}
+                                    alt={`project${index + 1}`}
+                                  />
+                                </div>
+                              ))}
+                            </div>
+                          </DialogDescription>
+                        </DialogHeader>
+                      </DialogContent>
+                    </Dialog>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
