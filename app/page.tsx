@@ -8,6 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -49,10 +50,13 @@ export default function Home() {
           <div className="text-base">
             <div className="mt-4 gap-4 flex justify-between items-center">
               <div className="hidden sm:block rounded-3xl overflow-hidden min-w-24 max-w-32">
-                <img
-                  className="w-full h-full object-cover"
-                  src="/images/image.jpg"
-                  alt="Avatar"
+                <Image
+                  unoptimized
+                  src={`/images/image.jpg`}
+                  alt={`edgetech`}
+                  width={600}
+                  height={400}
+                  layout="responsive"
                 />
               </div>
               <div>
@@ -64,6 +68,7 @@ export default function Home() {
                 아키텍처 설계, 기술적 전문성 강화, 팀의 기술적 성장 지원, 리더십
                 발휘, 문제 해결 능력 향상, 그리고 효과적인 커뮤니케이션에 중점을
                 두고 있습니다.
+                <br />
                 <br />
                 <span className="emphasis">
                   프로젝트의 성공을 최우선으로 생각합니다.
@@ -337,16 +342,44 @@ export default function Home() {
                           <DialogDescription className="pt-2">
                             <div className="space-y-2 h-[800px] overflow-auto">
                               <div>
-                                <img src="/images/japan1.jpeg" alt="edgetech" />
+                                <Image
+                                  unoptimized
+                                  src={`/images/japan1.jpeg`}
+                                  alt={`edgetech`}
+                                  width={600}
+                                  height={400}
+                                  layout="responsive"
+                                />
                               </div>
                               <div>
-                                <img src="/images/japan2.jpeg" alt="edgetech" />
+                                <Image
+                                  unoptimized
+                                  src={`/images/japan2.jpeg`}
+                                  alt={`edgetech`}
+                                  width={600}
+                                  height={400}
+                                  layout="responsive"
+                                />{" "}
                               </div>
                               <div>
-                                <img src="/images/japan3.jpeg" alt="edgetech" />
+                                <Image
+                                  unoptimized
+                                  src={`/images/japan3.jpeg`}
+                                  alt={`edgetech`}
+                                  width={600}
+                                  height={400}
+                                  layout="responsive"
+                                />{" "}
                               </div>
                               <div>
-                                <img src="/images/japan4.jpeg" alt="edgetech" />
+                                <Image
+                                  unoptimized
+                                  src={`/images/japan4.jpeg`}
+                                  alt={`edgetech`}
+                                  width={600}
+                                  height={400}
+                                  layout="responsive"
+                                />{" "}
                               </div>
                             </div>
                           </DialogDescription>
@@ -625,11 +658,14 @@ export default function Home() {
                           <DialogDescription className="pt-2">
                             <div className="space-y-2 h-[800px] overflow-auto">
                               {[...Array(23)].map((_, index) => (
-                                <div>
-                                  <img
-                                    width={800}
+                                <div key={"images" + index}>
+                                  <Image
+                                    unoptimized
                                     src={`/images/project${index + 1}.png`}
                                     alt={`project${index + 1}`}
+                                    width={800}
+                                    height={600}
+                                    layout="responsive"
                                   />
                                 </div>
                               ))}

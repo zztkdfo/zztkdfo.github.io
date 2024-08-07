@@ -7,7 +7,7 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "next build && next export",
+    "build": "next build",
     "serve": "npx http-server out"
   },
   "dependencies": {
