@@ -622,7 +622,7 @@ export default function Home() {
                           </DialogTitle>
                           <DialogDescription className="pt-2">
                             <div className="space-y-2 h-[800px] overflow-auto">
-                              {[...Array(18)].map((_, index) => (
+                              {[...Array(23)].map((_, index) => (
                                 <div>
                                   <img
                                     width={800}
