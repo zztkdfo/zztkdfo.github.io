@@ -1,5 +1,13 @@
 import Link from "next/link"
 import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 export default function Home() {
   return (
@@ -12,6 +20,7 @@ export default function Home() {
               프론트엔드 개발자
             </div>
           </div>
+
           <div className="">
             <div className="gap-4 flex justify-end ">
               <div className="text-2xl sm:text-3xl cursor-pointer">
@@ -322,7 +331,30 @@ export default function Home() {
                   {" "}
                   •{" "}
                   <span className="cursor-pointer text-blue-500">
-                    관련 정보
+                    <Dialog>
+                      <DialogTrigger>관련 정보</DialogTrigger>
+                      <DialogContent>
+                        <DialogHeader>
+                          <DialogTitle>일본 EdgeTech+ 2023</DialogTitle>
+                          <DialogDescription className="pt-2">
+                            <div className="space-y-2 h-[800px] overflow-auto">
+                              <div>
+                                <img src="/japan1.jpeg" alt="edgetech" />
+                              </div>
+                              <div>
+                                <img src="/japan2.jpeg" alt="edgetech" />
+                              </div>
+                              <div>
+                                <img src="/japan3.jpeg" alt="edgetech" />
+                              </div>
+                              <div>
+                                <img src="/japan4.jpeg" alt="edgetech" />
+                              </div>
+                            </div>
+                          </DialogDescription>
+                        </DialogHeader>
+                      </DialogContent>
+                    </Dialog>
                   </span>
                 </div>
                 <div className="font-semibold"> • Skill Keywords</div>
@@ -355,7 +387,7 @@ export default function Home() {
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>패밀리타운</div>
+                <div>패밀리타운(Web PC 버전)</div>
               </div>
               <div className="mt-2 sm:pl-2">
                 <div className="text-lg">
@@ -384,11 +416,22 @@ export default function Home() {
                   <a
                     className="text-blue-500"
                     target="_blank"
+                    href="https://www.family-town.com/features"
+                  >
+                    관련 정보
+                  </a>
+                </div>
+                <div className="">
+                  •{" "}
+                  <a
+                    className="text-blue-500"
+                    target="_blank"
                     href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
                   >
                     관련 정보
                   </a>
                 </div>
+
                 <div className="font-semibold"> • Skill Keywords</div>
                 <div className="pl-3 gap-1 flex flex-wrap">
                   <div className="skills">sendbird platform sdk</div>
@@ -399,7 +442,6 @@ export default function Home() {
                   <div className="skills">react query</div>
                   <div className="skills">typescript</div>
                 </div>
-
                 <div className="pl-3 gap-1 flex flex-wrap">
                   <div className="skills">figma</div>
                   <div className="skills">bootstrap</div>
@@ -423,6 +465,10 @@ export default function Home() {
                 <div className="text-sm ">(IT Service Management)</div>
               </div>
               <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
+                </div>
                 <div> • 프론트엔드 개발자로 전환</div>
                 <div> • 작성 중</div>
               </div>
@@ -435,10 +481,14 @@ export default function Home() {
             </div>
             <div className="sm:pl-12">
               <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ITSM </div>
+                <div>엔씨소프트 ITSM 레거시</div>
                 <div className="text-sm ">(IT Service Management)</div>
               </div>
               <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
+                </div>
                 <div> • 작성 중</div>
               </div>
             </div>
@@ -453,6 +503,10 @@ export default function Home() {
                 <div>엔씨소프트 ERP</div>
               </div>
               <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
+                </div>
                 <div> • 작성 중</div>
               </div>
             </div>
@@ -467,6 +521,10 @@ export default function Home() {
                 <div>엔씨소프트 NCDINOS 선수관리 시스템</div>
               </div>
               <div className="mt-2 sm:pl-2">
+                <div className="text-lg">
+                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                  스택 선정, 리드 개발
+                </div>
                 <div> • 작성 중</div>
               </div>
             </div>
