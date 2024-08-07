@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs";
+import Link from "next/link"
+import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs"
 
 export default function Home() {
   return (
@@ -296,6 +296,19 @@ export default function Home() {
                   • 일본 EdgeTech+ 2023 전시 참가를 위한 ai, hardware, software
                   기반(AIOT) ai + dx플랫폼
                 </div>
+                <div className="sm:hidden">
+                  • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
+                  반출/입 감지, 데이터센터 자동 상면/자산관리, 온도 및 전력에
+                  대한 분석/예측 관리(ESG), 프로젝트 관리(PMS) 서비스 개발
+                </div>
+                <div className="hidden sm:block">
+                  • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
+                  반출/입 감지, 데이터센터 자동 상면/자산관리
+                </div>
+                <div className="hidden sm:block sm:pl-3">
+                  온도 및 전력에 대한 분석/예측 관리(ESG), 프로젝트 관리(PMS)
+                  서비스 개발
+                </div>
                 <div>
                   • Layout에 대한 유동적인 UI/UX를 react dnd로 구현 및 적용
                 </div>
@@ -378,7 +391,7 @@ export default function Home() {
                 </div>
                 <div className="font-semibold"> • Skill Keywords</div>
                 <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">sendbird sdk</div>
+                  <div className="skills">sendbird platform sdk</div>
                   <div className="skills">sendbird ui kit</div>
                   <div className="skills">react</div>
                   <div className="skills">vite</div>
@@ -608,5 +621,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  );
+  )
 }
