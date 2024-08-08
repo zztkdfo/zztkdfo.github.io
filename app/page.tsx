@@ -363,8 +363,8 @@ export default function Home() {
                     대한 분석/예측 관리(ESG), 프로젝트 관리(PMS) 서비스 개발
                   </div>
                   <div className="hidden sm:block">
-                    • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
-                    반출/입 감지, 데이터센터 자동 상면/자산관리
+                    • 재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산 반출/입
+                    감지, 데이터센터 자동 상면/자산관리
                   </div>
                   <div className="hidden sm:block sm:pl-3">
                     온도 및 전력에 대한 분석/예측 관리(ESG), 프로젝트 관리(PMS)
