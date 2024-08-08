@@ -222,17 +222,17 @@ export default function Home() {
                 <div className="text-2xl sm:flex sm:items-end sm:gap-1">
                   <div>NCITS</div>
                   <div className="text-sm">
-                    (NCSOFT 자회사. 사내용 IT 서비스 구축 및 제공)
+                    (엔씨소프트 자회사. 사내용 IT 서비스 구축 및 제공)
                   </div>
                 </div>
                 <div className="mt-2 pl-2">
                   <div>
                     {" "}
-                    • NCSOFT ITSM(IT Service Management) 시스템 Frontend,
+                    • 엔씨소프트 ITSM(IT Service Management) 시스템 Frontend,
                     Backend 개발
                   </div>
-                  <div> • NCSOFT ERP 시스템 Backend 개발</div>
-                  <div> • NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
+                  <div> • 엔씨소프트 ERP 시스템 Backend 개발</div>
+                  <div> • 엔씨다이노스 선수 관리 시스템 메인 풀 스택 개발</div>
                   <div>
                     {" "}
                     • 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
