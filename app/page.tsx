@@ -385,7 +385,6 @@ export default function Home() {
                   • 글로벌 전시회에 맞춰 다국어 적용 및 구현 (영어, 일본어,
                   중국어, 한국어)
                 </div>
-                <div>• 작성 중</div>
 
                 <div className="">
                   {" "}
@@ -880,10 +879,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-20">
+        {/* <div className="mt-8 sm:mt-20">
           <div className="text-3xl sm:text-4xl mb-2">Education.</div>
           <div className="w-full border border-t border-solid" />
-        </div>
+        </div> */}
       </div>
     </main>
   )
