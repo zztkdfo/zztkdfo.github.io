@@ -63,44 +63,40 @@ export default function Home() {
                 />
               </div>
               <div>
-                반갑습니다. 저는 다수의 IT 웹 서비스에서{" "}
-                <span className="emphasis">풀스택(Java, React) 개발</span>과
-                스타트업 (Co-founder)에서{" "}
-                <span className="emphasis">프론트엔드 테크 리드</span>로서
-                다양한 경험을 쌓았습니다. 현재는 프로젝트의 기술적 방향 설정,
-                아키텍처 설계, 기술적 전문성 강화, 팀의 기술적 성장 지원, 리더십
-                발휘, 문제 해결 능력 향상, 그리고 효과적인 커뮤니케이션에 중점을
-                두고 있습니다.
+                반갑습니다. 다수의 IT 웹 서비스에서{" "}
+                <span className="emphasis">풀스택(Java, React) 개발</span>
+                {"  "}과 스타트업에서{"  "}
+                <span className="emphasis">
+                  프론트엔드 테크 리드(Co-founder)
+                </span>
+                {"  "}
+                로 다양한 경험을 쌓았습니다. 현재는 기술적 방향 설정, 아키텍처
+                설계, 팀의 기술적 성장 지원, 문제 해결 능력 향상, 그리고
+                효과적인 커뮤니케이션에 중점을 두고 있습니다.
                 <br />
                 <br />
-                <span className="emphasis">
-                  프로젝트의 성공을 최우선으로 생각합니다.
-                </span>{" "}
-                제가 생각하는{" "}
-                <span className="emphasis">
-                  프로젝트의 성공은 사용자의 만족과 팀의 성장을 의미합니다.
-                </span>{" "}
-                성공적인 프로젝트는 단순히 목표를 달성하는 것을 넘어, 사용자와
-                팀 모두가 성장하고 발전할 수 있는 기회를 제공해야 한다고
-                믿습니다.
+                저는 <span className="emphasis">프로젝트의 성공</span>을{"  "}
+                <span className="emphasis">사용자 만족</span>
+                {"  "}과<span className="emphasis">팀의 성장</span>
+                {"  "}으로 정의합니다. 진정한 성공은 목표 달성을 넘어, 사용자와
+                팀 모두가 함께 성장하는 것이라 믿습니다. 협업과 소통을 통해
+                건강한 개발 문화를 만들고, 모든 팀원이 최대한의 역량을 발휘할 수
+                있도록 지원합니다.
               </div>
             </div>
 
-            <div className="mt-8">
-              협업과 소통을 강조하여 팀 내 시너지를 극대화하며, 건강한 개발
-              문화를 조성하는 것이 제가 지향하는 팀 문화입니다. 모든 팀원이
-              자신의 역량을 최대한 발휘할 수 있도록 지원하고, 서로의 의견을
-              존중하며, 창의적인 해결책을 함께 모색합니다.
-            </div>
-
-            <div className="mt-8">
-              끝으로, 운동, 러닝, 독서, 글쓰기를 좋아하며, 커피 타임을 매우
-              좋아합니다. 인생의 가치관으로{" "}
-              <span className="emphasis">실천하기</span>,{" "}
-              <span className="emphasis">꾸준하게 하기</span>,{" "}
-              <span className="emphasis">습관화하기</span>를 중요하게 생각하며,
-              그런 사람이 되기 위해 노력하고 있습니다. 이러한 가치관은 저의
-              일상뿐만 아니라, 직업적인 성장에도 큰 영향을 미치고 있습니다.
+            <div className="mt-4">
+              제 삶의 철학은 <span className="emphasis">'실천'</span>,{"  "}
+              <span className="emphasis">'꾸준함'</span>,{"  "}
+              <span className="emphasis">'습관화'</span>입니다. 이러한 철학은
+              운동, 러닝, 독서, 글쓰기를 통해 일상에 적용되며, 직업적인 성장에도
+              큰 영향을 미치고 있습니다. 끝으로,{" "}
+              <span className="emphasis">
+                "매일 매일 아무것도 아닌 일을 꾸준히 하다보면 취미가 되고, 일이
+                되며, 나의 적성이 된다."
+              </span>
+              {"  "}처럼, 작은 여유 그리고 꾸준함이 큰 변화를 만들어낸다고
+              생각합니다.
             </div>
           </div>
         </div>
