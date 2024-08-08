@@ -247,6 +247,7 @@ export default function Home() {
                     • 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
                   </div>
                   <div> • 레거시 청산 및 프론트엔드 개발자로 전환</div>
+                  <div> • 프론트엔드 개발 팀장 및 팀 빌딩</div>
                 </div>
               </div>
             </div>
