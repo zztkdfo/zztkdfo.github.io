@@ -106,20 +106,20 @@ export default function Home() {
         </div>
 
         <div className="mt-8 sm:mt-20">
-          <div className="text-3xl sm:text-4xl mb-2">Experience.</div>
-          <div className="w-full border border-t border-solid" />
-          <div className="text-base">
-            <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-              <div className="w-48">
+          <div className="text-3xl sm:text-4xl mb-2 text-left">Experience.</div>
+          <div className="w-full border border-t border-solid"></div>
+          <div className="text-base max-w-6xl mx-auto">
+            <div className="mt-4 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.08 ~</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프리랜서</span>
                   <span className="xs-badge">퍼스널 브랜딩</span>
                 </div>
               </div>
-              <div className="sm:pl-12">
+              <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
-                <div className="mt-2 sm:pl-2">
+                <div className="mt-2 pl-2">
                   <div> • 프리랜서 프론트엔드 개발자</div>
                   <div> • 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
                   <div> • 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
@@ -127,8 +127,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-              <div className="w-48">
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2023.02 ~ 2024.07</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">스타트업</span>
@@ -138,30 +138,35 @@ export default function Home() {
                   <span className="xs-badge">프론트엔드 테크 리드</span>
                 </div>
               </div>
-              <div className="sm:pl-12">
+              <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl sm:flex sm:items-end sm:gap-1">
                   <div>링클로브</div>
-                  <div className="text-sm ">(AI+DX 스타트업 )</div>
+                  <div className="text-sm">(AI+DX 스타트업)</div>
                 </div>
-                <div className="mt-2 sm:pl-2">
+                <div className="mt-2 pl-2">
                   <div>
+                    {" "}
                     • 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
                     및 회사 운영
                   </div>
                   <div>
+                    {" "}
                     • B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발
                     및 제공
                   </div>
                   <div>
+                    {" "}
                     • 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
                   </div>
                   <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
                   <div>
+                    {" "}
                     • React, Nextjs를 사용한 다수의 웹 애플리케이션 개발
                   </div>
                   <div> • 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
                   <div> • 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
                   <div>
+                    {" "}
                     • 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
                   </div>
                   <div>
@@ -181,22 +186,23 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-              <div className="w-48">
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2022.02 ~ 2023.01</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프론트엔드 테크 리드</span>
                 </div>
               </div>
-              <div className="sm:pl-12">
+              <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl sm:flex sm:items-end sm:gap-1">
                   <div>아이준</div>
-                  <div className="text-sm ">(AIoT 전문기업)</div>
+                  <div className="text-sm">(AIoT 전문기업)</div>
                 </div>
-                <div className="mt-2 sm:pl-2">
+                <div className="mt-2 pl-2">
                   <div> • 스마트 팩토리 솔루션 개발</div>
                   <div> • B2B 서버실 출입 통제 솔루션 개발</div>
                   <div>
+                    {" "}
                     • 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
                   </div>
                   <div> • 주니어 개발자 멘토링 및 코드 리뷰</div>
@@ -204,36 +210,40 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-              <div className="w-48">
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 pb-4">
+              <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2014.07 ~ 2022.01</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">Backend 개발</span>
                   <span className="xs-badge">Frontend 개발</span>
                 </div>
               </div>
-              <div className="sm:pl-12">
+              <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl sm:flex sm:items-end sm:gap-1">
                   <div>NCITS</div>
-                  <div className="text-sm ">
+                  <div className="text-sm">
                     (NCSOFT 자회사. 사내용 IT 서비스 구축 및 제공)
                   </div>
                 </div>
-                <div className="mt-2 sm:pl-2">
+                <div className="mt-2 pl-2">
                   <div>
+                    {" "}
                     • NCSOFT ITSM(IT Service Management) 시스템 Frontend,
                     Backend 개발
                   </div>
                   <div> • NCSOFT ERP 시스템 Backend 개발</div>
                   <div> • NCDINOS 선수 관리 시스템 메인 풀 스택 개발</div>
                   <div>
+                    {" "}
                     • 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
                     모델링, API, UI/UX 개발
                   </div>
                   <div>
+                    {" "}
                     • MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리
                   </div>
                   <div>
+                    {" "}
                     • 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
                   </div>
                   <div> • 레거시 청산 및 프론트엔드 개발자로 전환</div>
@@ -242,495 +252,486 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="mt-8 sm:mt-20">
-          <div className="text-3xl sm:text-4xl mb-2">Project.</div>
-          <div className="w-full border border-t border-solid" />
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl">2024.08 ~ </div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>이력서, 포트폴리오</div>
+          <div className="text-3xl sm:text-4xl mb-2 text-left">Project.</div>
+          <div className="w-full border border-t border-solid"></div>
+          <div className="text-base max-w-6xl mx-auto">
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2024.08 ~</div>
               </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 설계 및 개발
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>이력서, 포트폴리오</div>
                 </div>
-                <div>• 본인에 대한 이력서 작성</div>
-                <div>• 본인에 대한 포트폴리오 작성</div>
-                <div className="">
-                  •{" "}
-                  <a
-                    className="text-blue-500"
-                    href="https://zztkdfo.github.io/"
-                  >
-                    관련 정보 (이력서)
-                  </a>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 설계 및 개발
+                  </div>
+                  <div>• 본인에 대한 이력서 작성</div>
+                  <div>• 본인에 대한 포트폴리오 작성</div>
+                  <div className="">
+                    •{" "}
+                    <a
+                      className="text-blue-500"
+                      href="https://zztkdfo.github.io/"
+                    >
+                      관련 정보 (이력서)
+                    </a>
+                  </div>
+                  <div className="">
+                    •{" "}
+                    <a
+                      className="text-blue-500"
+                      target="_blank"
+                      href="https://portfolio-zztkdfo.vercel.app/"
+                    >
+                      관련 정보 (포트폴리오)
+                    </a>
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">nextjs</div>
+                    <div className="skills">threejs</div>
+                    <div className="skills">shadcn/ui</div>
+                    <div className="skills">tailwindcss</div>
+                    <div className="skills">framer motion</div>
+                    <div className="skills">etc</div>
+                  </div>
                 </div>
-                <div className="">
-                  •{" "}
-                  <a
-                    className="text-blue-500"
-                    target="_blank"
-                    href="https://portfolio-zztkdfo.vercel.app/"
-                  >
-                    관련 정보 (포트폴리오)
-                  </a>
-                </div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">nextjs</div>
-                  <div className="skills">trheejs</div>
-                  <div className="skills">shadcn/ui</div>
-                  <div className="skills">tailwindcss</div>
-                  <div className="skills">framer motion</div>
-                  <div className="skills">etc</div>
-                </div>
-                {/* <div className="">
-                  <a
-                    className="text-blue-500"
-                    target="_blank"
-                    href="https://digitalchosun.dizzo.com/site/data/html_dir/2024/04/22/2024042280158.html"
-                  >
-                    • 관련 기사
-                  </a>
-                </div> */}
               </div>
             </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl">2024.03 ~ 2024.08</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>AIHADA</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
-                </div>
-                <div>
-                  • LLM(대형 언어 모델) 캐릭터 대화 기반 다중 도메인
-                  멀티에이전트 서비스
-                </div>
-                <div>
-                  {" "}
-                  • Threejs(react-three-fiber, Drei, mixamo)를 통한 3D 모델 웹
-                  기능 구현
-                </div>
-                <div> • 대화형 ChatBot UI/UX 개발</div>
-                <div> • LLM Option Admin 백오피스 툴 개발</div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">nextjs</div>
-                  <div className="skills">trheejs</div>
-                  <div className="skills">typescript</div>
-                  <div className="skills">recoil</div>
-                  <div className="skills">antd</div>
-                  <div className="skills">tailwindcss</div>
-                  <div className="skills">framer motion</div>
-                  <div className="skills">etc</div>
-                </div>
-                {/* <div className="">
-                  <a
-                    className="text-blue-500"
-                    target="_blank"
-                    href="https://digitalchosun.dizzo.com/site/data/html_dir/2024/04/22/2024042280158.html"
-                  >
-                    • 관련 기사
-                  </a>
-                </div> */}
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2023.08 ~ 2023.12</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>AI + DX 플랫폼</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
-                </div>
-                <div>
-                  {" "}
-                  • 일본 EdgeTech+ 2023 전시 참가를 위한 ai, hardware, software
-                  기반(AIOT) ai + dx플랫폼
-                </div>
-                <div className="sm:hidden">
-                  • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
-                  반출/입 감지, 데이터센터 자동 상면/자산관리, 온도 및 전력에
-                  대한 분석/예측 관리(ESG), 프로젝트 관리(PMS) 서비스 개발
-                </div>
-                <div className="hidden sm:block">
-                  • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
-                  반출/입 감지, 데이터센터 자동 상면/자산관리
-                </div>
-                <div className="hidden sm:block sm:pl-3">
-                  온도 및 전력에 대한 분석/예측 관리(ESG), 프로젝트 관리(PMS)
-                  서비스 개발
-                </div>
-                <div>
-                  • Layout에 대한 유동적인 UI/UX를 react dnd로 구현 및 적용
-                </div>
-                <div>
-                  • 글로벌 전시회에 맞춰 다국어 적용 및 구현 (영어, 일본어,
-                  중국어, 한국어)
-                </div>
 
-                <div className="">
-                  {" "}
-                  •{" "}
-                  <span className="cursor-pointer text-blue-500">
-                    <Dialog>
-                      <DialogTrigger>관련 정보</DialogTrigger>
-                      <DialogContent>
-                        <DialogHeader>
-                          <DialogTitle>일본 EdgeTech+ 2023</DialogTitle>
-                          <DialogDescription className="pt-2">
-                            <div className="space-y-2 h-[800px] overflow-auto">
-                              <div>
-                                <Image
-                                  unoptimized
-                                  src={`/images/japan1.jpeg`}
-                                  alt={`edgetech`}
-                                  width={600}
-                                  height={400}
-                                  layout="responsive"
-                                />
-                              </div>
-                              <div>
-                                <Image
-                                  unoptimized
-                                  src={`/images/japan2.jpeg`}
-                                  alt={`edgetech`}
-                                  width={600}
-                                  height={400}
-                                  layout="responsive"
-                                />{" "}
-                              </div>
-                              <div>
-                                <Image
-                                  unoptimized
-                                  src={`/images/japan3.jpeg`}
-                                  alt={`edgetech`}
-                                  width={600}
-                                  height={400}
-                                  layout="responsive"
-                                />{" "}
-                              </div>
-                              <div>
-                                <Image
-                                  unoptimized
-                                  src={`/images/japan4.jpeg`}
-                                  alt={`edgetech`}
-                                  width={600}
-                                  height={400}
-                                  layout="responsive"
-                                />{" "}
-                              </div>
-                            </div>
-                          </DialogDescription>
-                        </DialogHeader>
-                      </DialogContent>
-                    </Dialog>
-                  </span>
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2024.03 ~ 2024.08</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>AIHADA</div>
                 </div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">react</div>
-                  <div className="skills">vite</div>
-                  <div className="skills">recoil</div>
-                  <div className="skills">react query</div>
-                  <div className="skills">react dnd</div>
-                  <div className="skills">i18next</div>
-                  <div className="skills">trheejs</div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                    스택 선정, 리드 개발
+                  </div>
+                  <div>
+                    • LLM(대형 언어 모델) 캐릭터 대화 기반 다중 도메인
+                    멀티에이전트 서비스
+                  </div>
+                  <div>
+                    • Threejs(react-three-fiber, Drei, mixamo)를 통한 3D 모델 웹
+                    기능 구현
+                  </div>
+                  <div>• 대화형 ChatBot UI/UX 개발</div>
+                  <div>• LLM Option Admin 백오피스 툴 개발</div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">nextjs</div>
+                    <div className="skills">threejs</div>
+                    <div className="skills">typescript</div>
+                    <div className="skills">recoil</div>
+                    <div className="skills">antd</div>
+                    <div className="skills">tailwindcss</div>
+                    <div className="skills">framer motion</div>
+                    <div className="skills">etc</div>
+                  </div>
                 </div>
+              </div>
+            </div>
 
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">goJS</div>
-                  <div className="skills">apexCharts</div>
-                  <div className="skills">typescript</div>
-                  <div className="skills">bootstrap</div>
-                  <div className="skills">antd</div>
-                  <div className="skills">framer motion</div>
-                  <div className="skills">etc</div>
-                </div>
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2023.08 ~ 2023.12</div>
               </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2023.02 ~ 2023.08</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>패밀리타운(Web PC 버전)</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
-                  스택 선정, 리드 개발
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>AI + DX 플랫폼</div>
                 </div>
-                <div>• Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼</div>
-                <div>
-                  • 서버 상태는 React Query로 관리, 클라이언트 상태 관리
-                  Recoil로 관리 및 구현
-                </div>
-                <div className="sm:hidden">
-                  • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
-                  알람, 일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발
-                  및 구현
-                </div>
-                <div className="hidden sm:block">
-                  • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
-                  알람
-                </div>
-                <div className="hidden sm:block sm:pl-3">
-                  일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발 및 구현
-                </div>
-                <div>
-                  • 이전 프로젝트들의 불편함을 보완하기 위한 container /
-                  presenter 패턴 적용
-                </div>
-                <div className="">
-                  •{" "}
-                  <a
-                    className="text-blue-500"
-                    target="_blank"
-                    href="https://www.family-town.com/features"
-                  >
-                    관련 정보 (PC 버전)
-                  </a>
-                </div>
-                <div className="">
-                  •{" "}
-                  <a
-                    className="text-blue-500"
-                    target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
-                  >
-                    관련 정보
-                  </a>
-                </div>
-
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">sendbird platform sdk</div>
-                  <div className="skills">sendbird ui kit</div>
-                  <div className="skills">react</div>
-                  <div className="skills">vite</div>
-                  <div className="skills">recoil</div>
-                  <div className="skills">react query</div>
-                  <div className="skills">typescript</div>
-                </div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">figma</div>
-                  <div className="skills">bootstrap</div>
-                  <div className="skills">antd</div>
-                  <div className="skills">slack</div>
-                  <div className="skills">jira</div>
-                  <div className="skills">confluence</div>
-                  <div className="skills">etc</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2019.02 ~ 2022.02</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ITSM 리뉴얼 TF</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 백엔드 개발, 프론트엔드 개발
-                </div>
-                <div> • 백엔드 개발에서 프론트엔드 개발로 전환</div>
-                <div> • 동적 UI + Workflow 기반 처리 구조</div>
-                <div> • 설정 기반 개인화 대시보드 적용</div>
-                <div>
-                  {" "}
-                  • 사용자/부서, 업무, 그룹, 워크플로우, 서비스 요청, 티켓,
-                  문의, 템플릿, 등등 여러 서비스 개발 및 개선
-                </div>
-
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">spring boot</div>
-                  <div className="skills">spring data jpa</div>
-                  <div className="skills">rabbitmq</div>
-                  <div className="skills">redis</div>
-                  <div className="skills">firebase</div>
-                  <div className="skills">mariadB</div>
-                  <div className="skills">els</div>
-                  <div className="skills">graphql</div>
-                  <div className="skills">swagger ui</div>
-                </div>
-
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">react</div>
-                  <div className="skills">react native</div>
-                  <div className="skills">styled components</div>
-                  <div className="skills">antd</div>
-                  <div className="skills">redux</div>
-                  <div className="skills">lerna</div>
-                  <div className="skills">webppack</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2016.06 ~ 2016.12</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 NCDINOS 선수관리 시스템</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 메인 개발, 풀스택 개발
-                </div>
-                <div>
-                  • 선수에 대한 야구 데이터를 기록/통계하여 선수관리 시스템
-                </div>
-                <div>• MVC 패턴에 따른 모델 설계</div>
-                <div>• DB 셋팅 Table 설계 및 최적화</div>
-                <div>• Chart를 통한 통계 데이터 visualization</div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">c# .net</div>
-                  <div className="skills">jquery</div>
-                  <div className="skills">ms sql</div>
-                  <div className="skills">stored procedure</div>
-                  <div className="skills">post man</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2015.01 ~ 2019.01</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 레거시 ITSM </div>
-                <div className="text-sm ">(IT Service Management)</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 풀스택 개발
-                </div>
-                <div> • 기존 시스템의 유지보수 및 기능 개선</div>
-                <div> • 클라이언트와 데이터 통신을 위한 API 개발</div>
-                <div>
-                  {" "}
-                  • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
-                </div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">c# .net</div>
-                  <div className="skills">jquery</div>
-                  <div className="skills">ms sql</div>
-                  <div className="skills">stored procedure</div>
-                  <div className="skills">post man</div>
-                  <div className="skills">spring</div>
-                  <div className="skills">mybitis</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2014.07 ~ 2019.01</div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>엔씨소프트 ERP</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 풀스택 개발
-                </div>
-                <div> • 기존 시스템의 유지보수 및 기능 개선</div>
-                <div> • 클라이언트와 데이터 통신을 위한 API 개발</div>
-                <div>
-                  • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
-                </div>
-                <div className="font-semibold"> • Skill Keywords</div>
-                <div className="pl-3 gap-1 flex flex-wrap">
-                  <div className="skills">c# .net</div>
-                  <div className="skills">jquery</div>
-                  <div className="skills">ms sql</div>
-                  <div className="skills">stored procedure</div>
-                  <div className="skills">post man</div>
-                  <div className="skills">spring</div>
-                  <div className="skills">mybitis</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 sm:mt-8 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
-            <div className="w-48">
-              <div className="text-xl"> 2014.07 ~ </div>
-            </div>
-            <div className="sm:pl-12">
-              <div className="text-2xl sm:flex sm:items-end sm:gap-1">
-                <div>이외 다수 프로젝트 및 토이 프로젝트</div>
-              </div>
-              <div className="mt-2 sm:pl-2">
-                <div className="text-lg">
-                  <strong>주요 역할:</strong> 풀스택 개발
-                </div>
-                <div> • 학습을 위한 프로젝트 및 학습</div>
-                <div> • 비즈니스 성사를 위한 Demo 개발</div>
-                <div className="">
-                  {" "}
-                  •{" "}
-                  <span className="cursor-pointer text-blue-500">
-                    <Dialog>
-                      <DialogTrigger>
-                        관련 정보(대외비로 이미지가 흐릿할 수 있음)
-                      </DialogTrigger>
-                      <DialogContent className="max-w-3xl">
-                        {" "}
-                        {/* 크기 조정 */}
-                        <DialogHeader>
-                          <DialogTitle>
-                            이외 다수 프로젝트 및 토이 프로젝트
-                          </DialogTitle>
-                          <DialogDescription className="pt-2">
-                            <div className="space-y-2 h-[800px] overflow-auto">
-                              {[...Array(23)].map((_, index) => (
-                                <div key={"images" + index}>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                    스택 선정, 리드 개발
+                  </div>
+                  <div>
+                    • 일본 EdgeTech+ 2023 전시 참가를 위한 ai, hardware,
+                    software 기반(AIOT) ai + dx플랫폼
+                  </div>
+                  <div className="sm:hidden">
+                    • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
+                    반출/입 감지, 데이터센터 자동 상면/자산관리, 온도 및 전력에
+                    대한 분석/예측 관리(ESG), 프로젝트 관리(PMS) 서비스 개발
+                  </div>
+                  <div className="hidden sm:block">
+                    • 결품/재고관리, 워크플로우 자동화(RPA)-티켓서비스, 자산
+                    반출/입 감지, 데이터센터 자동 상면/자산관리
+                  </div>
+                  <div className="hidden sm:block sm:pl-3">
+                    온도 및 전력에 대한 분석/예측 관리(ESG), 프로젝트 관리(PMS)
+                    서비스 개발
+                  </div>
+                  <div>
+                    • Layout에 대한 유동적인 UI/UX를 react dnd로 구현 및 적용
+                  </div>
+                  <div>
+                    • 글로벌 전시회에 맞춰 다국어 적용 및 구현 (영어, 일본어,
+                    중국어, 한국어)
+                  </div>
+                  <div>
+                    •{" "}
+                    <span className="cursor-pointer text-blue-500">
+                      <Dialog>
+                        <DialogTrigger>관련 정보</DialogTrigger>
+                        <DialogContent>
+                          <DialogHeader>
+                            <DialogTitle>일본 EdgeTech+ 2023</DialogTitle>
+                            <DialogDescription className="pt-2">
+                              <div className="space-y-2 h-[800px] overflow-auto">
+                                <div>
                                   <Image
                                     unoptimized
-                                    src={`/images/project${index + 1}.png`}
-                                    alt={`project${index + 1}`}
-                                    width={800}
-                                    height={600}
+                                    src={`/images/japan1.jpeg`}
+                                    alt={`edgetech`}
+                                    width={600}
+                                    height={400}
                                     layout="responsive"
                                   />
                                 </div>
-                              ))}
-                            </div>
-                          </DialogDescription>
-                        </DialogHeader>
-                      </DialogContent>
-                    </Dialog>
-                  </span>
+                                <div>
+                                  <Image
+                                    unoptimized
+                                    src={`/images/japan2.jpeg`}
+                                    alt={`edgetech`}
+                                    width={600}
+                                    height={400}
+                                    layout="responsive"
+                                  />
+                                </div>
+                                <div>
+                                  <Image
+                                    unoptimized
+                                    src={`/images/japan3.jpeg`}
+                                    alt={`edgetech`}
+                                    width={600}
+                                    height={400}
+                                    layout="responsive"
+                                  />
+                                </div>
+                                <div>
+                                  <Image
+                                    unoptimized
+                                    src={`/images/japan4.jpeg`}
+                                    alt={`edgetech`}
+                                    width={600}
+                                    height={400}
+                                    layout="responsive"
+                                  />
+                                </div>
+                              </div>
+                            </DialogDescription>
+                          </DialogHeader>
+                        </DialogContent>
+                      </Dialog>
+                    </span>
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">react</div>
+                    <div className="skills">vite</div>
+                    <div className="skills">recoil</div>
+                    <div className="skills">react query</div>
+                    <div className="skills">react dnd</div>
+                    <div className="skills">i18next</div>
+                    <div className="skills">threejs</div>
+                  </div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">goJS</div>
+                    <div className="skills">apexCharts</div>
+                    <div className="skills">typescript</div>
+                    <div className="skills">bootstrap</div>
+                    <div className="skills">antd</div>
+                    <div className="skills">framer motion</div>
+                    <div className="skills">etc</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2023.02 ~ 2023.08</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>패밀리타운(Web PC 버전)</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 프론트엔드 아키텍처 설계, 기술
+                    스택 선정, 리드 개발
+                  </div>
+                  <div>
+                    • Sendbird 기반의 라이프스타일 커뮤니티 서비스 플랫폼
+                  </div>
+                  <div>
+                    • 서버 상태는 React Query로 관리, 클라이언트 상태 관리
+                    Recoil로 관리 및 구현
+                  </div>
+                  <div className="sm:hidden">
+                    • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
+                    알람, 일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발
+                    및 구현
+                  </div>
+                  <div className="hidden sm:block">
+                    • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
+                    알람
+                  </div>
+                  <div className="hidden sm:block sm:pl-3">
+                    일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발 및
+                    구현
+                  </div>
+                  <div>
+                    • 이전 프로젝트들의 불편함을 보완하기 위한 container /
+                    presenter 패턴 적용
+                  </div>
+                  <div className="">
+                    •{" "}
+                    <a
+                      className="text-blue-500"
+                      target="_blank"
+                      href="https://www.family-town.com/features"
+                    >
+                      관련 정보 (PC 버전)
+                    </a>
+                  </div>
+                  <div className="">
+                    •{" "}
+                    <a
+                      className="text-blue-500"
+                      target="_blank"
+                      href="https://play.google.com/store/apps/details?id=com.bemily.chat.befamily&hl=ko"
+                    >
+                      관련 정보
+                    </a>
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">sendbird platform sdk</div>
+                    <div className="skills">sendbird ui kit</div>
+                    <div className="skills">react</div>
+                    <div className="skills">vite</div>
+                    <div className="skills">recoil</div>
+                    <div className="skills">react query</div>
+                    <div className="skills">typescript</div>
+                  </div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">figma</div>
+                    <div className="skills">bootstrap</div>
+                    <div className="skills">antd</div>
+                    <div className="skills">slack</div>
+                    <div className="skills">jira</div>
+                    <div className="skills">confluence</div>
+                    <div className="skills">etc</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2019.02 ~ 2022.02</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>엔씨소프트 차세대 ITSM 2.0 구축</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 백엔드 개발, 프론트엔드 개발
+                  </div>
+                  <div>• 백엔드 개발에서 프론트엔드 개발로 전환</div>
+                  <div>• SOA, EDA 아키텍처 기반 서비스 API 개발</div>
+                  <div>• 동적 UI 템플릿 엔진 + Workflow 기반 처리 구조</div>
+                  <div>
+                    • 템플릿 엔진 기반 개인화 대시보드 적용 • 업무 알람관리
+                    서비스 개발 (UI 기반 스케줄러)
+                  </div>
+                  <div>• React Natvie 모바일 앱 개발</div>
+                  <div>
+                    • 사용자/부서, 업무, 그룹, 워크플로우, 서비스 요청, 티켓,
+                    문의, 템플릿, 등등 여러 서비스 개발 및 개선
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">spring boot</div>
+                    <div className="skills">spring data jpa</div>
+                    <div className="skills">rabbitmq</div>
+                    <div className="skills">redis</div>
+                    <div className="skills">firebase</div>
+                    <div className="skills">mariadB</div>
+                    <div className="skills">els</div>
+                    <div className="skills">graphql</div>
+                    <div className="skills">swagger ui</div>
+                  </div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">react</div>
+                    <div className="skills">react native</div>
+                    <div className="skills">styled components</div>
+                    <div className="skills">antd</div>
+                    <div className="skills">redux</div>
+                    <div className="skills">lerna</div>
+                    <div className="skills">webpack</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2016.06 ~ 2016.12</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>엔씨소프트 NCDINOS 선수관리 시스템</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 메인 개발, 풀스택 개발
+                  </div>
+                  <div>
+                    • 선수에 대한 야구 데이터를 기록/통계하여 선수관리 시스템
+                  </div>
+                  <div>• MVC 패턴에 따른 모델 설계</div>
+                  <div>• DB 셋팅 Table 설계 및 최적화</div>
+                  <div>• Chart를 통한 통계 데이터 visualization</div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">c# .net</div>
+                    <div className="skills">jquery</div>
+                    <div className="skills">ms sql</div>
+                    <div className="skills">stored procedure</div>
+                    <div className="skills">post man</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2015.01 ~ 2019.01</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>엔씨소프트 ITSM 1.0 구축</div>
+                  <div className="text-sm">(IT Service Management)</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 풀스택 개발
+                  </div>
+                  <div>
+                    • 서비스데스크, 변경관리, 장애관리, CMS, 문제관리 등의 ITSM
+                    솔루션 유지보수 및 기능 개선
+                  </div>
+                  <div>• 클라이언트와 데이터 통신을 위한 API 개발</div>
+                  <div>
+                    • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
+                  </div>
+                  <div>
+                    • 하이브리드 모바일 앱 백엔드 개발 (React Native 래핑)
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">c# .net</div>
+                    <div className="skills">jquery</div>
+                    <div className="skills">ms sql</div>
+                    <div className="skills">stored procedure</div>
+                    <div className="skills">post man</div>
+                    <div className="skills">spring</div>
+                    <div className="skills">mybitis</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2014.07 ~ 2019.01</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>엔씨소프트 ERP</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 풀스택 개발
+                  </div>
+                  <div>• 기존 시스템의 유지보수 및 기능 개선</div>
+                  <div>• 클라이언트와 데이터 통신을 위한 API 개발</div>
+                  <div>
+                    • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
+                  </div>
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">c# .net</div>
+                    <div className="skills">jquery</div>
+                    <div className="skills">ms sql</div>
+                    <div className="skills">stored procedure</div>
+                    <div className="skills">post man</div>
+                    <div className="skills">spring</div>
+                    <div className="skills">mybitis</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2014.07 ~</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>이외 다수 프로젝트 및 토이 프로젝트</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 풀스택 개발
+                  </div>
+                  <div>• 학습을 위한 프로젝트 및 학습</div>
+                  <div>• 비즈니스 성사를 위한 Demo 개발</div>
+                  <div>
+                    •{" "}
+                    <span className="cursor-pointer text-blue-500">
+                      <Dialog>
+                        <DialogTrigger>
+                          관련 정보(대외비로 이미지가 흐릿할 수 있음)
+                        </DialogTrigger>
+                        <DialogContent className="max-w-3xl">
+                          <DialogHeader>
+                            <DialogTitle>
+                              이외 다수 프로젝트 및 토이 프로젝트
+                            </DialogTitle>
+                            <DialogDescription className="pt-2">
+                              <div className="space-y-2 h-[800px] overflow-auto">
+                                {[...Array(23)].map((_, index) => (
+                                  <div key={"images" + index}>
+                                    <Image
+                                      unoptimized
+                                      src={`/images/project${index + 1}.png`}
+                                      alt={`project${index + 1}`}
+                                      width={800}
+                                      height={600}
+                                      layout="responsive"
+                                    />
+                                  </div>
+                                ))}
+                              </div>
+                            </DialogDescription>
+                          </DialogHeader>
+                        </DialogContent>
+                      </Dialog>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -748,10 +749,10 @@ export default function Home() {
             <div className="sm:pl-12">
               <div>
                 Nextjs, React, Threejs, HTMS, Javascript, CSS, Typescript,
+                Tailwindcss,
               </div>
               <div>
-                Tailwindcss, Redux, React query, recoil, Antd, MUI, Bootstrap,
-                Etc
+                Redux, React query, recoil, Antd, Shadcn/ui, MUI, Bootstrap, Etc
               </div>
             </div>
           </div>
@@ -771,7 +772,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none sm:pb-0">
+        <div className="mt-4 gap-4 flex flex-col sm:flex-row sm:gap-12 border-b border-dotted pb-4 sm:border-none">
           <div className="w-48">
             <div className="text-2xl font-semibold">Common</div>
           </div>
