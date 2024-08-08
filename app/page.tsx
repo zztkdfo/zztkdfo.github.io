@@ -86,14 +86,14 @@ export default function Home() {
             </div>
 
             <div className="mt-4">
-              제 삶의 철학은 <span className="emphasis">'실천'</span>,{"  "}
-              <span className="emphasis">'꾸준함'</span>,{"  "}
-              <span className="emphasis">'습관화'</span>입니다. 이러한 철학은
-              운동, 러닝, 독서, 글쓰기를 통해 일상에 적용되며, 직업적인 성장에도
-              큰 영향을 미치고 있습니다. 끝으로,{" "}
+              제 삶의 철학은 <span className="emphasis">{`'실천'`}</span>,{"  "}
+              <span className="emphasis">{`'꾸준함'`}</span>,{"  "}
+              <span className="emphasis">{`'습관화'`}</span>입니다. 이러한
+              철학은 운동, 러닝, 독서, 글쓰기를 통해 일상에 적용되며, 직업적인
+              성장에도 큰 영향을 미치고 있습니다. 끝으로,{" "}
               <span className="emphasis">
-                "매일 매일 아무것도 아닌 일을 꾸준히 하다보면 취미가 되고, 일이
-                되며, 나의 적성이 된다."
+                {`"매일 매일 아무것도 아닌 일을 꾸준히 하다보면 취미가 되고, 일이
+                되며, 나의 적성이 된다."`}
               </span>
               {"  "}처럼, 작은 여유 그리고 꾸준함이 큰 변화를 만들어낸다고
               생각합니다.
