@@ -796,6 +796,15 @@ export default function Home() {
               <a
                 className="text-blue-500"
                 target="_blank"
+                href="https://disquiet.io/@zztkdfo/makerlog/%EB%82%B4%EA%B0%80-%EB%8A%A6%EC%97%88%EB%82%98-%ED%83%80%EC%9D%B4%EB%B0%8D%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%9D%EA%B0%81%EB%93%A4"
+              >
+                내가 늦었나? 🤔: 타이밍에 대한 생각들
+              </a>
+            </div>
+            <div>
+              <a
+                className="text-blue-500"
+                target="_blank"
                 href="https://disquiet.io/@zztkdfo/makerlog/%EB%82%AB%ED%88%AC%EB%91%90-not-to-do-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%83%9D%EC%9D%84-%EB%B3%80%ED%99%94%EC%8B%9C%ED%82%A4%EB%8A%94-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EA%B0%81"
               >
                 낫투두(Not To Do) 리스트: 인생을 변화시키는 새로운 시각
