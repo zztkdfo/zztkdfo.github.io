@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 이상래 - 프론트엔드 개발자 & 퍼스널 브랜딩 전문가
 
-## Getting Started
+## 👋 소개
 
-First, run the development server:
+안녕하세요, 저는 이상래입니다. 다년간의 경력을 통해 **풀스택(Java, React) 개발자**로서 성장해왔으며, 스타트업에서 공동 창업자이자 **프론트엔드 테크 리드**로 다양한 프로젝트를 성공적으로 이끌었습니다. 현재는 기술적 방향 설정, 아키텍처 설계, 팀의 기술적 성장 지원, 문제 해결 능력 향상, 그리고 효과적인 커뮤니케이션에 중점을 두고 있습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+저는 프로젝트의 성공을 **사용자 만족**과 **팀의 성장**으로 정의합니다. 진정한 성공은 목표 달성을 넘어, 사용자와 팀 모두가 함께 성장하는 것이라고 믿습니다. 협업과 소통을 통해 건강한 개발 문화를 만들고, 모든 팀원이 최대한의 역량을 발휘할 수 있도록 지원합니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+제 삶의 철학은 **'실천'**, **'꾸준함'**, **'습관화'**입니다. 이러한 철학은 운동, 러닝, 독서, 글쓰기를 통해 일상에 적용되며, 직업적인 성장에도 큰 영향을 미치고 있습니다. 끝으로, "매일 매일 아무것도 아닌 일을 꾸준히 하다 보면 취미가 되고, 일이 되며, 나의 적성이 된다."처럼, 작은 여유 그리고 꾸준함이 큰 변화를 만들어낸다고 생각합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 소셜 링크
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [GitHub](https://github.com/zztkdfo/)
+- [포트폴리오](https://portfolio-zztkdfo.vercel.app/)
+- **Email:** zztkdfo@gmail.com
 
-## Learn More
+## 💼 경력
 
-To learn more about Next.js, take a look at the following resources:
+### 프리랜서 & 퍼스널 브랜딩 (2024.08 ~ 현재)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 프리랜서 프론트엔드 개발자
+- 개발자 커뮤니티 및 퍼스널 브랜딩 커뮤니티 활동
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 링클로브 (AI+DX 스타트업) - Co-Founder & 프론트엔드 테크 리드 (2023.02 ~ 2024.07)
 
-## Deploy on Vercel
+- 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발 및 회사 운영
+- B2B, B2C, B2G 솔루션 개발 및 제공
+- React, Next.js를 사용한 다수의 웹 애플리케이션 개발
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 아이준 (AIoT 전문기업) - 프론트엔드 테크 리드 (2022.02 ~ 2023.01)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 스마트 팩토리 솔루션 개발
+- B2B 서버실 출입 통제 솔루션 개발
+
+### NCITS (엔씨소프트 자회사) - 백엔드 & 프론트엔드 개발자 (2014.07 ~ 2022.01)
+
+- 엔씨소프트 ITSM 시스템 Frontend, Backend 개발
+- 엔씨다이노스 선수 관리 시스템 풀스택 개발
+
+## 🛠 기술 스택
+
+### Frontend
+
+- Next.js, React, Three.js, HTML, CSS, JavaScript, TypeScript, TailwindCSS
+- Redux, React Query, Recoil, Ant Design, Shadcn/UI, MUI, Bootstrap 등
+
+### Backend
+
+- Java, Spring Boot, Spring Data JPA, Redis, Node.js, Express, MySQL, MSSQL
+- GraphQL, ElasticSearch 등
+
+### Common
+
+- Git, GitHub, Jira, Confluence, Trello, Slack, Docker, Jenkins
+- Visual Studio Code, Figma 등
+
+## 📚 글쓰기
+
+나의 가치관인 **실천**, **꾸준함**, **습관**에 대해 아래의 글들에서 더 자세히 표현하고 있습니다:
+
+- [내가 늦었나? 🤔: 타이밍에 대한 생각들](https://disquiet.io/@zztkdfo/makerlog/%EB%82%B4%EA%B0%80-%EB%8A%A6%EC%97%88%EB%82%98-%ED%83%80%EC%9D%B4%EB%B0%8D%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%9D%EA%B0%81%EB%93%A4)
+- [낫투두(Not To Do) 리스트: 인생을 변화시키는 새로운 시각](https://disquiet.io/@zztkdfo/makerlog/%EB%82%AB%ED%88%AC%EB%91%90-not-to-do-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%83%9D%EC%9D%84-%EB%B3%80%ED%99%94%EC%8B%9C%ED%82%A4%EB%8A%94-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EA%B0%81)
+- [수요자에서 공급자로의 변환: 글을 쓰면서 변화한 생각과 마인드](https://disquiet.io/@zztkdfo/makerlog/%EC%88%98%EC%9A%94%EC%9E%90%EC%97%90%EC%84%9C-%EA%B3%B5%EA%B8%89%EC%9E%90%EB%A1%9C%EC%9D%98-%EB%B3%80%ED%99%98-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%B3%80%ED%99%94%ED%95%9C-%EC%83%9D%EA%B0%81%EA%B3%BC-%EB%A7%88%EC%9D%B8%EB%93%9C)
+
+---
