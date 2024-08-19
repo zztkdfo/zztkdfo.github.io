@@ -125,7 +125,7 @@ export default function Home() {
 
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
-                <div className="text-xl">2023.02 ~ 2024.07</div>
+                <div className="text-xl">2023.02 ~ 2024.08</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">스타트업</span>
                   <span className="xs-badge">Co-Founder</span>
@@ -184,7 +184,7 @@ export default function Home() {
 
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
-                <div className="text-xl">2022.02 ~ 2023.01</div>
+                <div className="text-xl">2022.04 ~ 2023.02</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프론트엔드 테크 리드</span>
                 </div>
@@ -208,7 +208,7 @@ export default function Home() {
 
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 pb-4">
               <div className="w-full sm:w-1/3 text-left">
-                <div className="text-xl">2014.07 ~ 2022.01</div>
+                <div className="text-xl">2014.07 ~ 2022.04</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">Backend 개발</span>
                   <span className="xs-badge">Frontend 개발</span>
