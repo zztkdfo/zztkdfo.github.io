@@ -565,7 +565,7 @@ export default function Home() {
                     <div className="skills">rabbitmq</div>
                     <div className="skills">redis</div>
                     <div className="skills">firebase</div>
-                    <div className="skills">mariadB</div>
+                    <div className="skills">mariadb</div>
                     <div className="skills">els</div>
                     <div className="skills">graphql</div>
                     <div className="skills">swagger ui</div>
@@ -645,7 +645,7 @@ export default function Home() {
                     <div className="skills">stored procedure</div>
                     <div className="skills">post man</div>
                     <div className="skills">spring</div>
-                    <div className="skills">mybitis</div>
+                    <div className="skills">mybatis</div>
                   </div>
                 </div>
               </div>
