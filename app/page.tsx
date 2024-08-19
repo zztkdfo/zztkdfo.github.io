@@ -128,7 +128,7 @@ export default function Home() {
                 <div className="text-xl">2023.02 ~ 2024.07</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">스타트업</span>
-                  <span className="xs-badge">Co-Fonder</span>
+                  <span className="xs-badge">Co-Founder</span>
                 </div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프론트엔드 테크 리드</span>
@@ -172,7 +172,7 @@ export default function Home() {
                       with brycen jp
                     </div>
                     <div className="pl-4">
-                      - 킨테스 보안 전시회 2024 참가 with cammsys
+                      - 킨텍스 보안 전시회 2024 참가 with cammsys
                     </div>
                     <div className="pl-4">
                       - 코엑스 AI 대전 2024 참가 with brycen kr
