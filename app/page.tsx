@@ -288,11 +288,11 @@ export default function Home() {
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">nextjs</div>
-                    <div className="skills">threejs</div>
-                    <div className="skills">shadcn/ui</div>
-                    <div className="skills">tailwindcss</div>
-                    <div className="skills">framer motion</div>
+                    <div className="skills">Next.js</div>
+                    <div className="skills">Three.js</div>
+                    <div className="skills">Shadcn/UI</div>
+                    <div className="skills">Tailwind CSS</div>
+                    <div className="skills">Framer Motion</div>
                     <div className="skills">etc</div>
                   </div>
                 </div>
@@ -317,20 +317,20 @@ export default function Home() {
                     멀티에이전트 서비스
                   </div>
                   <div>
-                    • Threejs(react-three-fiber, Drei, mixamo)를 통한 3D 모델 웹
-                    기능 구현
+                    • Three.js(react-three-fiber, Drei, mixamo)를 통한 3D 모델
+                    웹 기능 구현
                   </div>
                   <div>• 대화형 ChatBot UI/UX 개발</div>
                   <div>• LLM Option Admin 백오피스 툴 개발</div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">nextjs</div>
-                    <div className="skills">threejs</div>
-                    <div className="skills">typescript</div>
-                    <div className="skills">recoil</div>
-                    <div className="skills">antd</div>
-                    <div className="skills">tailwindcss</div>
-                    <div className="skills">framer motion</div>
+                    <div className="skills">Next.js</div>
+                    <div className="skills">Three.js</div>
+                    <div className="skills">TypeScript</div>
+                    <div className="skills">Recoil</div>
+                    <div className="skills">Ant Design (AntD)</div>
+                    <div className="skills">Tailwind CSS</div>
+                    <div className="skills">Framer Motion</div>
                     <div className="skills">etc</div>
                   </div>
                 </div>
@@ -368,7 +368,7 @@ export default function Home() {
                     서비스 개발
                   </div>
                   <div>
-                    • Layout에 대한 유동적인 UI/UX를 react dnd로 구현 및 적용
+                    • Layout에 대한 유동적인 UI/UX를 React DnD로 구현 및 적용
                   </div>
                   <div>
                     • 글로벌 전시회에 맞춰 다국어 적용 및 구현 (영어, 일본어,
@@ -433,21 +433,21 @@ export default function Home() {
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">react</div>
-                    <div className="skills">vite</div>
-                    <div className="skills">recoil</div>
-                    <div className="skills">react query</div>
-                    <div className="skills">react dnd</div>
+                    <div className="skills">React</div>
+                    <div className="skills">Vite</div>
+                    <div className="skills">Recoil</div>
+                    <div className="skills">React Query</div>
+                    <div className="skills">React DnD</div>
                     <div className="skills">i18next</div>
-                    <div className="skills">threejs</div>
+                    <div className="skills">Three.js</div>
                   </div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">goJS</div>
-                    <div className="skills">apexCharts</div>
-                    <div className="skills">typescript</div>
-                    <div className="skills">bootstrap</div>
-                    <div className="skills">antd</div>
-                    <div className="skills">framer motion</div>
+                    <div className="skills">GoJS</div>
+                    <div className="skills">ApexCharts</div>
+                    <div className="skills">TypeScript</div>
+                    <div className="skills">Bootstrap</div>
+                    <div className="skills">Ant Design (AntD)</div>
+                    <div className="skills">Framer Motion</div>
                     <div className="skills">etc</div>
                   </div>
                 </div>
@@ -513,21 +513,21 @@ export default function Home() {
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">sendbird platform sdk</div>
-                    <div className="skills">sendbird ui kit</div>
-                    <div className="skills">react</div>
-                    <div className="skills">vite</div>
-                    <div className="skills">recoil</div>
-                    <div className="skills">react query</div>
-                    <div className="skills">typescript</div>
+                    <div className="skills">Sendbird Platform SDK</div>
+                    <div className="skills">Sendbird UI Kit</div>
+                    <div className="skills">React</div>
+                    <div className="skills">Vite</div>
+                    <div className="skills">Recoil</div>
+                    <div className="skills">React Query</div>
+                    <div className="skills">TypeScript</div>
                   </div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">figma</div>
-                    <div className="skills">bootstrap</div>
-                    <div className="skills">antd</div>
-                    <div className="skills">slack</div>
-                    <div className="skills">jira</div>
-                    <div className="skills">confluence</div>
+                    <div className="skills">Figma</div>
+                    <div className="skills">Bootstrap</div>
+                    <div className="skills">Ant Design (AntD)</div>
+                    <div className="skills">Slack</div>
+                    <div className="skills">Jira</div>
+                    <div className="skills">Confluence</div>
                     <div className="skills">etc</div>
                   </div>
                 </div>
@@ -549,35 +549,33 @@ export default function Home() {
                   <div>• 백엔드 개발에서 프론트엔드 개발로 전환</div>
                   <div>• SOA, EDA 아키텍처 기반 서비스 API 개발</div>
                   <div>• 동적 UI 템플릿 엔진 + Workflow 기반 처리 구조</div>
-                  <div>
-                    • 템플릿 엔진 기반 개인화 대시보드 적용 • 업무 알람관리
-                    서비스 개발 (UI 기반 스케줄러)
-                  </div>
-                  <div>• React Natvie 모바일 앱 개발</div>
+                  <div>• 템플릿 엔진 기반 개인화 대시보드 적용</div>
+                  <div>• 업무 알람관리 서비스 개발 (UI 기반 스케줄러)</div>
+                  <div>• React Native 모바일 앱 개발</div>
                   <div>
                     • 사용자/부서, 업무, 그룹, 워크플로우, 서비스 요청, 티켓,
                     문의, 템플릿, 등등 여러 서비스 개발 및 개선
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">spring boot</div>
-                    <div className="skills">spring data jpa</div>
-                    <div className="skills">rabbitmq</div>
-                    <div className="skills">redis</div>
-                    <div className="skills">firebase</div>
-                    <div className="skills">mariadb</div>
-                    <div className="skills">els</div>
-                    <div className="skills">graphql</div>
-                    <div className="skills">swagger ui</div>
+                    <div className="skills">Spring Boot</div>
+                    <div className="skills">Spring Data JPA</div>
+                    <div className="skills">RabbitMQ</div>
+                    <div className="skills">Redis</div>
+                    <div className="skills">Firebase</div>
+                    <div className="skills">MariaDB</div>
+                    <div className="skills">Elasticsearch (ELS)</div>
+                    <div className="skills">GraphQL</div>
+                    <div className="skills">Swagger UI</div>
                   </div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">react</div>
-                    <div className="skills">react native</div>
-                    <div className="skills">styled components</div>
-                    <div className="skills">antd</div>
-                    <div className="skills">redux</div>
-                    <div className="skills">lerna</div>
-                    <div className="skills">webpack</div>
+                    <div className="skills">React</div>
+                    <div className="skills">React Native</div>
+                    <div className="skills">Styled Components</div>
+                    <div className="skills">Ant Design (AntD)</div>
+                    <div className="skills">Redux</div>
+                    <div className="skills">Lerna</div>
+                    <div className="skills">Webpack</div>
                   </div>
                 </div>
               </div>
@@ -600,14 +598,14 @@ export default function Home() {
                   </div>
                   <div>• MVC 패턴에 따른 모델 설계</div>
                   <div>• DB 셋팅 Table 설계 및 최적화</div>
-                  <div>• Chart를 통한 통계 데이터 visualization</div>
+                  <div>• Chart를 통한 통계 데이터 Visualization</div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">c# .net</div>
-                    <div className="skills">jquery</div>
-                    <div className="skills">ms sql</div>
-                    <div className="skills">stored procedure</div>
-                    <div className="skills">post man</div>
+                    <div className="skills">C# .NET</div>
+                    <div className="skills">jQuery</div>
+                    <div className="skills">MS SQL</div>
+                    <div className="skills">Stored Procedure</div>
+                    <div className="skills">Postman</div>
                   </div>
                 </div>
               </div>
@@ -639,13 +637,13 @@ export default function Home() {
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">c# .net</div>
-                    <div className="skills">jquery</div>
-                    <div className="skills">ms sql</div>
-                    <div className="skills">stored procedure</div>
-                    <div className="skills">post man</div>
-                    <div className="skills">spring</div>
-                    <div className="skills">mybatis</div>
+                    <div className="skills">C# .NET</div>
+                    <div className="skills">jQuery</div>
+                    <div className="skills">MS SQL</div>
+                    <div className="skills">Stored Procedure</div>
+                    <div className="skills">Postman</div>
+                    <div className="skills">Spring</div>
+                    <div className="skills">MyBatis</div>
                   </div>
                 </div>
               </div>
@@ -670,13 +668,13 @@ export default function Home() {
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
-                    <div className="skills">c# .net</div>
-                    <div className="skills">jquery</div>
-                    <div className="skills">ms sql</div>
-                    <div className="skills">stored procedure</div>
-                    <div className="skills">post man</div>
-                    <div className="skills">spring</div>
-                    <div className="skills">mybitis</div>
+                    <div className="skills">C# .NET</div>
+                    <div className="skills">jQuery</div>
+                    <div className="skills">MS SQL</div>
+                    <div className="skills">Stored Procedure</div>
+                    <div className="skills">Postman</div>
+                    <div className="skills">Spring</div>
+                    <div className="skills">MyBatis</div>
                   </div>
                 </div>
               </div>
