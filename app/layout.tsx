@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import type { Metadata } from "next"
+import localFont from "next/font/local"
+import "./globals.css"
 
 const pretendard = localFont({
   src: "../public/fonts/PretendardVariable.woff2",
   display: "swap",
   weight: "45 920",
   variable: "--font-pretendard",
-});
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zztkdfo.github.io/" || ""),
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     type: "website",
     url: "https://zztkdfo.github.io/",
-    images: "/image.jpg",
+    images: "/image.jpeg",
   },
   verification: {
     google: "xz7p-PNC9D1tE2LZsKKDmFPIq2Cqs-0rIYyNAlnyQIQ",
@@ -44,16 +44,16 @@ export const metadata: Metadata = {
   //     "max-snippet": -1,
   //   },
   // },
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="ko" className={`${pretendard.variable}`}>
       <body className={pretendard.className}>{children}</body>
     </html>
-  );
+  )
 }
