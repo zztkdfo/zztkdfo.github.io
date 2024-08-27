@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EC%84%B1%EC%88%99%ED%95%A8%EC%9D%98-6%EA%B0%80%EC%A7%80-%EB%AA%85%ED%99%95%ED%95%9C-%EC%A7%95%ED%9B%84-%EC%82%B6%EC%9D%98-%EA%B9%8A%EC%9D%B4%EB%A5%BC-%EB%8D%94%ED%95%98%EB%8A%94-%EC%A7%80%ED%98%9C",
+    text: "성숙함의 6가지 명확한 징후: 삶의 깊이를 더하는 지혜",
+  },
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EC%84%B1%EA%B3%B5%EC%9D%98-80-%EB%8A%94-%EC%9A%B4-%EA%B7%B8%EB%9E%98%EC%84%9C-%EC%9A%B0%EB%A6%AC%EB%8A%94-%EB%8D%94-%EA%B0%90%EC%82%AC%ED%95%B4%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
     text: "성공의 80%는 운? 그래서 우리는 더 감사해야 합니다 🍀🙏",
   },
@@ -47,4 +51,4 @@ export const articles = [
     href: "https://disquiet.io/@zztkdfo/makerlog/%EB%AC%B4%EC%8B%A0%EC%82%AC%EC%9D%98-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B0%9C%ED%8E%B8-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%A0%84%ED%99%98",
     text: "무신사의 웹 사이트 개편:모바일 중심으로의 전환",
   },
-]
+];
