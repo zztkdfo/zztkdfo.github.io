@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs"
+import Link from "next/link";
+import { BsGithub, BsGlobe2, BsJournalText } from "react-icons/bs";
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import Image from "next/image"
-import { articles } from "@/data/articles"
+} from "@/components/ui/dialog";
+import Image from "next/image";
+import { articles } from "@/data/articles";
 
 export default function Home() {
   return (
@@ -700,7 +700,7 @@ export default function Home() {
                     <span className="cursor-pointer text-blue-500">
                       <Dialog>
                         <DialogTrigger>
-                          관련 정보(대외비로 이미지가 흐릿할 수 있음)
+                          관련 정보(여러 프로젝트 이미지)
                         </DialogTrigger>
                         <DialogContent className="max-w-3xl">
                           <DialogHeader>
@@ -811,5 +811,5 @@ export default function Home() {
         </div> */}
       </div>
     </main>
-  )
+  );
 }
