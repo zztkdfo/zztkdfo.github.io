@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/remind-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EC%8B%A4%ED%8C%A8%ED%95%98%EA%B8%B0",
+    text: "Remind: 빠르게 실패하기",
+  },
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-3%EB%85%84%EC%9D%98-%EA%B8%B0%EB%A1%9D-%EC%84%A4%EB%A0%88%EC%9E%84-%EB%8F%84%EC%A0%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EC%9E%91",
     text: "스타트업 3년의 기록: 설레임, 도전, 그리고 새로운 시작",
   },
