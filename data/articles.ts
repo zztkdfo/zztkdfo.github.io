@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EB%82%B4-%EA%BF%88-vs-%EB%82%A8%EC%9D%98-%EC%82%AC%EC%97%85",
+    text: "내 꿈 vs 남의 사업: 주체성에 대해서..",
+  },
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EC%B0%BD%EC%97%85%EA%B0%80%EC%97%90%EC%84%9C-%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EB%A1%9C%EC%9D%98-%EC%82%B6",
     text: "스타트업 창업가에서 프리랜서로의 삶: 나의 생각과 행동이 멀지 않기를",
   },
