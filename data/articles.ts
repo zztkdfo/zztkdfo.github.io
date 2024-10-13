@@ -1,8 +1,13 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/ai-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94-%EB%8C%80%EC%B2%B4%EB%90%A0%EA%B9%8C-%EC%95%84%EB%8B%88-%EC%A7%84%ED%99%94%ED%95%A0%EA%B9%8C",
+    text: "AI 시대, 개발자는 대체될까? 아니, 진화할까?",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%88%98%EC%9E%85%EA%B3%BC-%EC%9E%90%EC%9C%A0%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EA%B0%84%EC%9D%98-%EA%B7%A0%ED%98%95",
     text: "프리랜서 개발자로 선택한 이유: 안정적인 수입과 자유로운 시간의 균형 💼⏰",
-  },  {
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EB%82%B4-%EA%BF%88-vs-%EB%82%A8%EC%9D%98-%EC%82%AC%EC%97%85",
     text: "내 꿈 vs 남의 사업: 주체성에 대해서..",
   },
