@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8C%80%ED%91%9C%EC%97%90%EC%84%9C-%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%A0%84%ED%96%A5-%ED%9A%8C%EA%B3%A0",
+    text: "스타트업 대표에서 프리랜서 개발자로 전향: 회고",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/ai-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94-%EB%8C%80%EC%B2%B4%EB%90%A0%EA%B9%8C-%EC%95%84%EB%8B%88-%EC%A7%84%ED%99%94%ED%95%A0%EA%B9%8C",
     text: "AI 시대, 개발자는 대체될까? 아니, 진화할까?",
   },  
