@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B8%B8%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EC%B2%AB-%EA%B1%B8%EC%9D%8C-%EA%BE%B8%EC%A4%80%ED%9E%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%82%98%EB%8B%B5%EA%B2%8C",
+    text: "나만의 길을 만들어가는 첫 걸음, 꾸준히 그리고 나답게",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8C%80%ED%91%9C%EC%97%90%EC%84%9C-%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%A0%84%ED%96%A5-%ED%9A%8C%EA%B3%A0",
     text: "스타트업 대표에서 프리랜서 개발자로 전향: 회고",
   },  
