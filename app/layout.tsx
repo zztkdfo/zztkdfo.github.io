@@ -12,17 +12,17 @@ const pretendard = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://zztkdfo.github.io/" || ""),
   title: {
-    default: "이상래 | 프론트엔드 개발자",
-    template: "%s | " + "이상래 | 프론트엔드 개발자",
+    default: "이상래 | 프리랜서 개발자",
+    template: "%s | " + "이상래 | 프리랜서 개발자",
   },
   icons: {
     icon: "/favicon.svg",
   },
-  description: "프론트엔드 개발자 이상래의 포트폴리오입니다.",
+  description: "프리랜서 개발자 이상래의 포트폴리오입니다.",
   openGraph: {
-    title: "이상래 | 프론트엔드 개발자",
+    title: "이상래 | 프리랜서 개발자",
     description: "개인 이력서 및 포트폴리오",
-    siteName: "이상래 | 프론트엔드 개발자",
+    siteName: "이상래 | 프리랜서 개발자",
     locale: "ko_KR",
     type: "website",
     url: "https://zztkdfo.github.io/",
