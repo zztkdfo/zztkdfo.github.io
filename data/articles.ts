@@ -1,5 +1,8 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EA%B0%99%EC%9D%80-%EA%B7%B8%EB%A6%BC-%EB%8B%A4%EB%A5%B8-%ED%95%B4%EC%84%9D-%EB%8B%B9%EC%8B%A0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B3%B4%EC%85%A8%EB%82%98%EC%9A%94",
+    text: "같은 그림, 다른 해석: 당신은 무엇을 보셨나요?",
+  },    {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B8%B8%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EC%B2%AB-%EA%B1%B8%EC%9D%8C-%EA%BE%B8%EC%A4%80%ED%9E%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%82%98%EB%8B%B5%EA%B2%8C",
     text: "나만의 길을 만들어가는 첫 걸음, 꾸준히 그리고 나답게",
   },  
