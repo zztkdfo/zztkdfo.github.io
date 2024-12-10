@@ -108,7 +108,30 @@ export default function Home() {
           <div className="text-base max-w-6xl mx-auto">
             <div className="mt-4 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
-                <div className="text-xl">2024.08 ~</div>
+                <div className="text-xl">2024.08 ~ 2024.12</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">프리랜서</span>
+                  <span className="xs-badge">SK 하이닉스</span>
+                </div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl">SK 하이닉스 프리랜서</div>
+                <div className="mt-2 pl-2">
+                  <div> • SK 하이닉스 프론트엔드 개발 프리랜서</div>
+                  <div> • SK 하이닉스 공정 자동화 백오피스 개발</div>
+                  <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
+                  <div> • 공통 컴포넌트 개발</div>
+                  <div> • Atomic 개발 패턴 적용</div>
+                  <div>
+                    • python, langchain, llm 서비스 데모 개발(코드 분석 및 동적
+                    UI 설계)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2024.07 ~ 2024.08</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프리랜서</span>
                   <span className="xs-badge">퍼스널 브랜딩</span>
@@ -124,7 +147,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2023.02 ~ 2024.08</div>
                 <div className="flex gap-1 pl-2 mt-1">
@@ -183,7 +206,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2022.04 ~ 2023.02</div>
                 <div className="flex gap-1 pl-2 mt-1">
@@ -207,7 +230,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 pb-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2014.07 ~ 2022.04</div>
                 <div className="flex gap-1 pl-2 mt-1">
@@ -231,9 +254,8 @@ export default function Home() {
                   <div> • 엔씨소프트 ERP 시스템 Backend 개발</div>
                   <div> • 엔씨다이노스 선수 관리 시스템 메인 풀 스택 개발</div>
                   <div>
-                    {" "}
-                    • 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 데이터
-                    모델링, API, UI/UX 개발
+                    • 업무/부서/인사/예약/장애 등등 정보 제공에 필요한 DB, API,
+                    UI/UX 개발
                   </div>
                   <div>
                     {" "}
@@ -476,7 +498,7 @@ export default function Home() {
                     Recoil로 관리 및 구현
                   </div>
                   <div className="sm:hidden">
-                    • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
+                    • 사용자, 인증/인가, 그룹/프로필, ��화방(채널), 앨범(파일),
                     알람, 일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발
                     및 구현
                   </div>
@@ -634,7 +656,7 @@ export default function Home() {
                     • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
                   </div>
                   <div>
-                    • 하이브리드 모바일 앱 백엔드 개발 (React Native 래핑)
+                    • 하이브리드 모바일 앱 백엔드 개발 (React Native 래���)
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
