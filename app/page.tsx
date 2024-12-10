@@ -278,7 +278,41 @@ export default function Home() {
           <div className="text-base max-w-6xl mx-auto">
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
-                <div className="text-xl">2024.08 ~</div>
+                <div className="text-xl">2024.08 ~ 2024.12</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>SK 하이닉스 공정 자동화 백오피스</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 설계 및 개발
+                  </div>
+                  <div>• React 기반 SK 하이닉스 공정 자동화 백오피스 개발</div>
+                  <div>• 프로젝트 아키텍처 설계 및 기술 스택 선정</div>
+                  <div>• 공통 컴포넌트 개발</div>
+                  <div>• Atomic 개발 패턴 적용</div>
+                  <div>
+                    • python, langchain, llm 서비스 데모 개발(코드 분석 및 동적
+                    UI 설계)
+                  </div>
+
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">React</div>
+                    <div className="skills">Antd</div>
+                    <div className="skills">React Query</div>
+                    <div className="skills">python</div>
+                    <div className="skills">langchain</div>
+                    <div className="skills">llm</div>
+                    <div className="skills">etc</div>
+                  </div>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2024.07 ~ 2024.08</div>
               </div>
               <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl sm:flex sm:items-end sm:gap-1">
@@ -321,7 +355,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.03 ~ 2024.08</div>
@@ -359,7 +392,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2023.08 ~ 2023.12</div>
@@ -476,7 +508,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2023.02 ~ 2023.08</div>
@@ -556,7 +587,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2019.02 ~ 2022.02</div>
@@ -603,7 +633,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2016.06 ~ 2016.12</div>
@@ -633,7 +662,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2015.01 ~ 2019.01</div>
@@ -671,7 +699,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2014.07 ~ 2019.01</div>
@@ -702,7 +729,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2014.07 ~</div>
