@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%EA%B9%83%ED%97%88%EB%B8%8C-%ED%94%84%EB%A1%9C%ED%95%84-%EC%83%9D%EC%84%B1%EA%B8%B0-%EC%99%9C-%EB%A7%8C%EB%93%A4%EC%97%88%EC%9D%84%EA%B9%8C%EC%9A%94",
+    text: "깃허브 프로필 생성기, 왜 만들었을까요? 🤔",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B3%84%EC%95%BD-%EC%97%B0%EC%9E%A5-%EC%9D%B4%EC%8A%88-%EA%B0%90%EC%A0%95%EC%9D%B4-%EC%95%84%EB%8B%8C-%EC%A0%84%EB%9E%B5%EC%9C%BC%EB%A1%9C-%ED%92%80%EC%96%B4%EB%82%B4%EB%8A%94-%EB%B2%95",
     text: "프리랜서 계약 연장 이슈: 감정이 아닌 전략으로 풀어내는 법👍",
   },
