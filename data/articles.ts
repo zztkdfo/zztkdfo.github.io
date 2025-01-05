@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B4%EC%95%84%EB%82%A8%EB%8A%94-%EB%B2%95-25%EB%85%84-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0",
+    text: "프리랜서 개발자로 살아남는 법: 25년 첫 프로젝트를 시작하며 🛠️",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%EA%B9%83%ED%97%88%EB%B8%8C-%ED%94%84%EB%A1%9C%ED%95%84-%EC%83%9D%EC%84%B1%EA%B8%B0-%EC%99%9C-%EB%A7%8C%EB%93%A4%EC%97%88%EC%9D%84%EA%B9%8C%EC%9A%94",
     text: "깃허브 프로필 생성기, 왜 만들었을까요? 🤔",
   },  
