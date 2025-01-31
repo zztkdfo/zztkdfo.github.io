@@ -1,5 +1,9 @@
 export const articles = [
   {
+    href: "https://disquiet.io/@zztkdfo/makerlog/ai%EA%B0%80-%EC%A4%91%EA%B8%89-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%B2%B4%ED%95%9C%EB%8B%A4%EA%B3%A0-%EA%B7%B8%EB%9E%98%EC%84%9C-%EC%A0%80%EB%8A%94-%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%A4%80%EB%B9%84%ED%95%A9%EB%8B%88%EB%8B%A4",
+    text: "AI가 중급 개발자까지 대체한다고? 그래서 저는 이렇게 준비합니다.",
+  },  
+  {
     href: "https://disquiet.io/@zztkdfo/makerlog/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B4%EC%95%84%EB%82%A8%EB%8A%94-%EB%B2%95-25%EB%85%84-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0",
     text: "프리랜서 개발자로 살아남는 법: 25년 첫 프로젝트를 시작하며 🛠️",
   },  
