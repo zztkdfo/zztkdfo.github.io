@@ -108,6 +108,33 @@ export default function Home() {
           <div className="text-base max-w-6xl mx-auto">
             <div className="mt-4 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2025.01 ~ 현재</div>
+                <div className="flex gap-1 pl-2 mt-1">
+                  <span className="xs-badge">프리랜서</span>
+                  <span className="xs-badge">SK 하이닉스</span>
+                </div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl">SK 하이닉스 프리랜서</div>
+                <div className="mt-2 pl-2">
+                  <div>
+                    • SK 하이닉스 제조 실시간 생산 관리 시스템 프론트엔드 리드
+                    개발
+                    <br /> (FDC: Fault Detection & Classification)
+                  </div>
+                  <div>
+                    • 반도체 설비 센서 데이터
+                    <br />
+                    (빅데이터, 초당 15,000 row 데이터, 데이터 수집 주기)에 따른
+                    Chart 구현
+                  </div>
+                  <div> • 설비(FDC) 도메인에 대한 학습 및 개발 진행 중</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.08 ~ 2024.12</div>
                 <div className="flex gap-1 pl-2 mt-1">
                   <span className="xs-badge">프리랜서</span>
@@ -117,7 +144,7 @@ export default function Home() {
               <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl">SK 하이닉스 프리랜서</div>
                 <div className="mt-2 pl-2">
-                  <div> • SK 하이닉스 프론트엔드 개발 프리랜서</div>
+                  <div> • SK 하이닉스 풀스택 개발 프리랜서</div>
                   <div> • SK 하이닉스 공정 자동화 백오피스 개발</div>
                   <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
                   <div> • 공통 컴포넌트 개발</div>
@@ -129,6 +156,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             <div className="mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.07 ~ 2024.08</div>
@@ -140,7 +168,7 @@ export default function Home() {
               <div className="w-full sm:w-2/3 text-left">
                 <div className="text-2xl">프리랜서, 퍼스널브랜딩</div>
                 <div className="mt-2 pl-2">
-                  <div> • 프리랜서 프론트엔드 개발자</div>
+                  <div> • 프리랜서 풀스택 개발자</div>
                   <div> • 개발자 커뮤니티, 퍼스널 브랜딩 커뮤니티 활동 중</div>
                   <div> • 스타트업 경험을 통한 인사이트와 많은 데이터 축적</div>
                 </div>
@@ -529,7 +557,7 @@ export default function Home() {
                     Recoil로 관리 및 구현
                   </div>
                   <div className="sm:hidden">
-                    • 사용자, 인증/인가, 그룹/프로필, ��화방(채널), 앨범(파일),
+                    • 사용자, 인증/인가, 그룹/프로필, 대화방(채널), 앨범(파일),
                     알람, 일정관리(기념일, 디데이), 이모티콘 등 다양한 기능 개발
                     및 구현
                   </div>
@@ -684,7 +712,7 @@ export default function Home() {
                     • MVC 패턴에 따른 모델 설계 및 DB Table 설계 및 최적화
                   </div>
                   <div>
-                    • 하이브리드 모바일 앱 백엔드 개발 (React Native 래���)
+                    • 하이브리드 모바일 앱 백엔드 개발 (React Native 래프트)
                   </div>
                   <div className="font-semibold"> • Skill Keywords</div>
                   <div className="pl-3 gap-1 flex flex-wrap">
