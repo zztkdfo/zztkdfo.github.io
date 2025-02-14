@@ -163,11 +163,8 @@ export default function Home() {
                   <div> • SK 하이닉스 풀스택 개발 프리랜서</div>
                   <div> • SK 하이닉스 공정 자동화 백오피스 개발</div>
                   <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
-                  <div> • 공통 컴포넌트 개발</div>
-                  <div> • Atomic 개발 패턴 적용</div>
                   <div>
-                    • python, langchain, llm 서비스 데모 개발(코드 분석 및 동적
-                    UI 설계)
+                    • AI, LLM, Langchain, Python, FastAPI 서비스 데모 개발
                   </div>
                 </div>
               </div>
@@ -209,28 +206,23 @@ export default function Home() {
                 </div>
                 <div className="mt-2 pl-2">
                   <div>
-                    {" "}
                     • 스타트업 공동 창업 및 프론트엔드 테크 리드로 프로젝트 개발
                     및 회사 운영
                   </div>
                   <div>
-                    {" "}
                     • B2B, B2C, B2G 등 다양한 비즈니스 모델에 대한 솔루션 개발
                     및 제공
                   </div>
                   <div>
-                    {" "}
                     • 다양한 산업 분야의 클라이언트를 위한 맞춤형 솔루션 개발
                   </div>
                   <div> • 프론트엔드 아키텍처 설계 및 기술 스택 선정</div>
                   <div>
-                    {" "}
                     • React, Nextjs를 사용한 다수의 웹 애플리케이션 개발
                   </div>
                   <div> • 시장 분석을 통한 제품 개선 및 신규 기능 개발</div>
                   <div> • 스타트 업, 개발자 커뮤니티에서의 활발한 활동</div>
                   <div>
-                    {" "}
                     • 투자 유치 및 비즈니스를 위한 프레젠테이션 및 데모 준비
                   </div>
                   <div>
@@ -266,7 +258,6 @@ export default function Home() {
                   <div> • 스마트 팩토리 솔루션 개발</div>
                   <div> • B2B 서버실 출입 통제 솔루션 개발</div>
                   <div>
-                    {" "}
                     • 3D 디지털트윈 비즈니스를 위한 프레젠테이션 및 데모 개발
                   </div>
                   <div> • 주니어 개발자 멘토링 및 코드 리뷰</div>
@@ -291,7 +282,6 @@ export default function Home() {
                 </div>
                 <div className="mt-2 pl-2">
                   <div>
-                    {" "}
                     • 엔씨소프트 ITSM(IT Service Management) 시스템 Frontend,
                     Backend 개발
                   </div>
@@ -302,11 +292,9 @@ export default function Home() {
                     UI/UX 개발
                   </div>
                   <div>
-                    {" "}
                     • MySQL / MSSQL / Redis 데이터베이스 유지보수 및 관리
                   </div>
                   <div>
-                    {" "}
                     • 사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현
                   </div>
                   <div> • 레거시 청산 및 프론트엔드 개발자로 전환</div>
@@ -320,6 +308,38 @@ export default function Home() {
           <div className="text-3xl sm:text-4xl mb-2 text-left">Project.</div>
           <div className="w-full border border-t border-solid"></div>
           <div className="text-base max-w-6xl mx-auto">
+            <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
+              <div className="w-full sm:w-1/3 text-left">
+                <div className="text-xl">2024.12 ~ 현재</div>
+              </div>
+              <div className="w-full sm:w-2/3 text-left">
+                <div className="text-2xl sm:flex sm:items-end sm:gap-1">
+                  <div>SK 하이닉스 설비 관리 시스템(MES)</div>
+                </div>
+                <div className="mt-2 sm:pl-2">
+                  <div className="text-lg">
+                    <strong>주요 역할:</strong> 설계 및 개발
+                  </div>
+                  <div>
+                    • React 기반 SK 하이닉스 설비 관리 시스템(FDC 도메인)
+                  </div>
+                  <div>• 프로젝트 아키텍처 설계 및 기술 스택 선정</div>
+                  <div>• 대규모 데이터 처리 및 Chart 구현</div>
+                  <div>• Atomic 개발 패턴 적용</div>
+
+                  <div className="font-semibold"> • Skill Keywords</div>
+                  <div className="pl-3 gap-1 flex flex-wrap">
+                    <div className="skills">React</div>
+                    <div className="skills">Antd</div>
+                    <div className="skills">React Query</div>
+                    <div className="skills">Jotai</div>
+                    <div className="skills">Ag-Grid</div>
+                    <div className="skills">Chart.js</div>
+                    <div className="skills">Tailwind CSS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.08 ~ 2024.12</div>
@@ -353,7 +373,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div className="mt-4 sm:mt-8 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
               <div className="w-full sm:w-1/3 text-left">
                 <div className="text-xl">2024.07 ~ 2024.08</div>
