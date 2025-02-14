@@ -12,6 +12,17 @@ import Image from "next/image";
 import { articles } from "@/data/articles";
 
 export default function Home() {
+  const calculateExperience = () => {
+    const startDate = new Date(2014, 6); // 2014년 7월 (월은 0부터 시작)
+    const today = new Date();
+    const years = today.getFullYear() - startDate.getFullYear();
+    const months = today.getMonth() - startDate.getMonth();
+    const totalMonths = years * 12 + months;
+    const displayYears = Math.floor(totalMonths / 12);
+    const displayMonths = totalMonths % 12;
+    return `${displayYears}년 ${displayMonths}개월`;
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-4 md:px-8 lg:px-16">
       <div className="w-full max-w-5xl min-w-[320px] bg-white p-4">
@@ -103,7 +114,12 @@ export default function Home() {
         </div>
 
         <div className="mt-8 sm:mt-20">
-          <div className="text-3xl sm:text-4xl mb-2 text-left">Experience.</div>
+          <div className="text-3xl sm:text-4xl mb-2 text-left">
+            Experience.{" "}
+            <span className="text-base italic">
+              총 경력: {calculateExperience()}
+            </span>
+          </div>
           <div className="w-full border border-t border-solid"></div>
           <div className="text-base max-w-6xl mx-auto">
             <div className="mt-4 flex flex-col sm:flex-row gap-4 border-b border-dotted pb-4">
